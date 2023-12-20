@@ -1,12 +1,23 @@
+<div class="hero-container">
+    <div class="hero-wrapper">
+        {{section.settings.hero}}
+    </div>
+</div>
+
+
 {% schema %}
   {
     "name": "hero",
-    "settings": []
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "hero",
+            "label": "Hero Image"
+        }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
 
 {% javascript %}
 {% endjavascript %}
