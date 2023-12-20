@@ -7,7 +7,11 @@
     {{ 'theme.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
-    <!-- Very basic theme layout -->
+    <nav class="main-nav">
+        <div class="main-nav-left"></div>
+        <div class="main-nav-center"></div>
+        <div class="main-nav-right"></div>
+    </nav>
     {{ content_for_layout }}
   </body>
   {%  render 'footer' %}
