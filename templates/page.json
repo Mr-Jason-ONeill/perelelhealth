@@ -1,12 +1,12 @@
 {
   "sections": {
-    "index": {
-      "type": "hero",
+    "main": {
+      "type": "main",
       "settings": {
       }
     }
   },
   "order": [
-    "index"
+    "main"
   ]
 }
