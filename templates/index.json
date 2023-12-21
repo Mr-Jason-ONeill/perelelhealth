@@ -5,9 +5,42 @@
       "settings": {
         "hero": "shopify:\/\/shop_images\/hero.png"
       }
+    },
+    "marquee": {
+      "type": "marquee"
+    },
+    "gridImage": {
+      "type": "card-with-image"
+    },
+    "blocks": {
+      "type": "card-with-blocks"
+    },
+    "comparison": {
+      "type": "card-with-comparison"
+    },
+    "icons": {
+      "type": "card-with-icons"
+    },
+    "info": {
+      "type": "card-with-info"
+    },
+    "recipes": {
+      "type": "card-with-recipes"
+    },
+    "testimonials": {
+      "type": "testimonials"
     }
   },
   "order": [
-    "index"
+    "index",
+    "marquee",
+    "testimonials",
+    "recipes",
+    "info",
+    "icons",
+    "comparison",
+    "blocks",
+    "gridImage"
+
   ]
 }
