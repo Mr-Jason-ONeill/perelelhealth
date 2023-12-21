@@ -1,8 +1,13 @@
 <div class="hero-container">
     <div class="hero-wrapper">
-        {{section.settings.hero}}
+      {% if section.settings.hero %}
+        {{ section.settings.hero | image_url: width: 1440, height: 810 | image_tag: preload: true, class: "hero-image" }}
+      {% endif %}
     </div>
 </div>
+
+
+
 
 
 {% schema %}

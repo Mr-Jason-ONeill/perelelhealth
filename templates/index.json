@@ -1,12 +1,13 @@
 {
-    "sections": {
-      "index": {
-        "type": "hero",
-        "settings": {
-        }
+  "sections": {
+    "index": {
+      "type": "hero",
+      "settings": {
+        "hero": "shopify:\/\/shop_images\/hero.png"
       }
-    },
-    "order": [
-      "index"
-    ]
-  }
+    }
+  },
+  "order": [
+    "index"
+  ]
+}
