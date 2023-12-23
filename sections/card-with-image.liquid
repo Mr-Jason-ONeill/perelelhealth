@@ -1,6 +1,8 @@
 <div class="image-container">
     <div class="image-wrapper">
-        {{ section.settings.gridImage | image_url: width: 1440 | image_tag}}
+        <div class="image">
+        {{ section.settings.imageCard | image_url: width: 1500 | image_tag}}
+        </div>
     </div>
 </div>
 
@@ -8,12 +10,12 @@
 
 {% schema %}
     {
-      "name": "gridImage",
+      "name": "imageCard",
       "settings": [
           {
               "type": "image_picker",
-              "id": "gridImage",
-              "label": "Grid Image"
+              "id": "imageCard",
+              "label": "Image"
           }
       ]
     }

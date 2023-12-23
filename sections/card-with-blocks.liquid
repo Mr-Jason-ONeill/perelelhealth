@@ -1,6 +1,9 @@
 <div class="block-container">
     <div class="block-wrapper">
+        <h2 class="block-heading">{{ section.settings.blockHeading }}</h2>
+        <div class="block">
         {{ section.settings.blocks }}
+        </div>
     </div>
 </div>
 
@@ -9,7 +12,11 @@
     {
       "name": "blocks",
       "settings": [
-          {
+        {
+              "type": "richtext",
+              "id": "blockHeading",
+              "label": "Title for Section"
+          }, {
               "type": "image_picker",
               "id": "blocks",
               "label": "Block section"

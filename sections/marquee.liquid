@@ -1,6 +1,8 @@
 <div class="marquee-container">
     <div class="marquee-wrapper">
-        {{ section.settings.marquee }}
+        <div class="marquee">
+            {{ section.settings.marquee }}
+        </div>
     </div>
 </div>
 
@@ -10,7 +12,7 @@
       "name": "marquee",
       "settings": [
           {
-              "type": "image_picker",
+              "type": "richtext",
               "id": "marquee",
               "label": "Marquee"
           }

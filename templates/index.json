@@ -8,15 +8,16 @@
         "heroContext": "<p>This is where the information will go<\/p>"
       }
     },
-    "gridImage": {
+    "image": {
       "type": "card-with-image",
       "settings": {
-        "gridImage": "shopify:\/\/shop_images\/perelelbox.png"
+        "imageCard": "shopify:\/\/shop_images\/perelelbox.png"
       }
     },
     "marquee": {
       "type": "marquee",
       "settings": {
+        "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  Dairy-Fr<\/p>"
       }
     },
     "testimonials": {
@@ -53,7 +54,7 @@
   },
   "order": [
     "index",
-    "gridImage",
+    "image",
     "marquee",
     "testimonials",
     "recipes",

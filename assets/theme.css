@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #F8F7F5;
+
 }
 
 /* ---------- Navigations ------ */
@@ -95,3 +96,34 @@ body {
     border-radius: 3.125rem;
     background: #E2D294;
 }
+
+
+
+
+/* --------- Marquee -------- */
+
+.marquee {
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem; /* 285.714% */
+    letter-spacing: 0.0525rem;
+    text-transform: uppercase;
+}
+
+
+/* --------- Image Card ------ */
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.image-wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:antiquewhite;
+    overflow: hidden;
+  }
