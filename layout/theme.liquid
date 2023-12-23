@@ -8,9 +8,16 @@
   </head>
   <body>
     <nav class="main-nav">
-      <div class="main-nav-left">Left</div>
-      <div class="main-nav-center">Center</div>
-      <div class="main-nav-right">Right</div>
+      <div class="main-nav-left">
+        <div class="logo">Logo</div>
+        <div class="nav-links">
+          {% for link in linklists.main-menu.links -%}
+            <li class="nav-link">{{ link.title | upcase | link_to: link.url }}</li>
+          {%- endfor -%}
+        </div>
+        </div>
+      <div class="main-nav-center">Center - Empty</div>
+      <div class="main-nav-right">Right - Search bar</div>
     </nav>
     {{ content_for_layout }}
   </body>

@@ -6,8 +6,11 @@ body {
     background-color: lightgray;
 }
 
+/* ---------- Navigations ------ */
+
+/* --------- Main Navigation ----- */
 .main-nav {
-    background-color: aquamarine;
+    background-color: #E2D294;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -16,10 +19,58 @@ body {
     padding-bottom: 2%;
 }
 
+.main-nav-left,
+.nav-links,
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* ------- Hero -------*/
 .hero-container {
-    width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .hero-wrapper {
-    background-color:antiquewhite;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:antiquewhite;
+}
+
+.hero-bg {
+  position: relative;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-bg img {
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-context {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  top: 50%;
+  width: 100%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* ------------ Buttons -------- */
+.shop-now-btn {
+    width: 21.875rem;
+    height: 3.125rem;
+    border-radius: 3.125rem;
+    background: #E2D294;
 }

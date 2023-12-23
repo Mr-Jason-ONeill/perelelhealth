@@ -3,32 +3,51 @@
     "index": {
       "type": "hero",
       "settings": {
-        "hero": "shopify:\/\/shop_images\/hero.png"
+        "hero": "shopify:\/\/shop_images\/hero.png",
+        "heroHeading": "<p>This is where the title will go<\/p><p><\/p>",
+        "heroContext": "<p>This is where the information will go<\/p>"
       }
     },
     "marquee": {
-      "type": "marquee"
-    },
-    "gridImage": {
-      "type": "card-with-image"
-    },
-    "blocks": {
-      "type": "card-with-blocks"
-    },
-    "comparison": {
-      "type": "card-with-comparison"
-    },
-    "icons": {
-      "type": "card-with-icons"
-    },
-    "info": {
-      "type": "card-with-info"
-    },
-    "recipes": {
-      "type": "card-with-recipes"
+      "type": "marquee",
+      "settings": {
+      }
     },
     "testimonials": {
-      "type": "testimonials"
+      "type": "testimonials",
+      "settings": {
+        "testimonials": ""
+      }
+    },
+    "recipes": {
+      "type": "card-with-recipes",
+      "settings": {
+      }
+    },
+    "info": {
+      "type": "card-with-info",
+      "settings": {
+      }
+    },
+    "icons": {
+      "type": "card-with-icons",
+      "settings": {
+      }
+    },
+    "comparison": {
+      "type": "card-with-comparison",
+      "settings": {
+      }
+    },
+    "blocks": {
+      "type": "card-with-blocks",
+      "settings": {
+      }
+    },
+    "gridImage": {
+      "type": "card-with-image",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -41,6 +60,5 @@
     "comparison",
     "blocks",
     "gridImage"
-
   ]
 }

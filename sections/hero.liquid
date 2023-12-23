@@ -1,11 +1,17 @@
 <div class="hero-container">
-    <div class="hero-wrapper">
+  <div class="hero-wrapper">
+    <div class="hero-bg">
       {% if section.settings.hero %}
-        {{ section.settings.hero | image_url: width: 1440, height: 810 | image_tag: preload: true, class: "hero-image" }}
+        {{ section.settings.hero | image_url: width: 1800 | image_tag: preload: true }}
       {% endif %}
     </div>
+    <div class="hero-context">
+        <h2>{{ section.settings.heroHeading }}</h2>
+        <p> {{ section.settings.heroContext }}</p>
+        <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
 </div>
-
 
 
 
@@ -18,6 +24,14 @@
             "type": "image_picker",
             "id": "hero",
             "label": "Hero Image"
+        }, {
+            "type": "richtext",
+            "id": "heroHeading",
+            "label": "Hero Title"
+        }, {
+            "type": "richtext",
+            "id": "heroContext",
+            "label": "Hero Information"
         }
     ]
   }
