@@ -8,6 +8,12 @@
         "heroContext": "<p>This is where the information will go<\/p>"
       }
     },
+    "gridImage": {
+      "type": "card-with-image",
+      "settings": {
+        "gridImage": "shopify:\/\/shop_images\/perelelbox.png"
+      }
+    },
     "marquee": {
       "type": "marquee",
       "settings": {
@@ -43,22 +49,17 @@
       "type": "card-with-blocks",
       "settings": {
       }
-    },
-    "gridImage": {
-      "type": "card-with-image",
-      "settings": {
-      }
     }
   },
   "order": [
     "index",
+    "gridImage",
     "marquee",
     "testimonials",
     "recipes",
     "info",
     "icons",
     "comparison",
-    "blocks",
-    "gridImage"
+    "blocks"
   ]
 }

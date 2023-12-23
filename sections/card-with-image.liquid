@@ -1,6 +1,6 @@
 <div class="image-container">
     <div class="image-wrapper">
-        {{ section.settings.gridImage }}
+        {{ section.settings.gridImage | image_url: width: 1440 | image_tag}}
     </div>
 </div>
 

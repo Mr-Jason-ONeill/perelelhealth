@@ -66,6 +66,27 @@ body {
   flex-wrap: wrap;
 }
 
+.hero-heading {
+  color: #F5F5F5;
+  text-align: center;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.125rem; /* 125% */
+  text-transform: capitalize;
+}
+
+.hero-paragraph {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 156.25% */
+}
+
 
 /* ------------ Buttons -------- */
 .shop-now-btn {
