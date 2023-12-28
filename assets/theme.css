@@ -251,8 +251,55 @@ height: 3.125rem;
   flex-direction: column;
 }
 
+.icon-heading {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.125rem;
+  text-decoration-line: underline;
+}
+
+.icon-subHeading {
+  color: #000;
+  text-align: center;
+  font-family: Abel;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.125rem;
+  text-decoration-line: underline;
+}
+
+.icon-information {
+  color: #636363;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
 
 .icons {
   display: flex;
   flex-direction: row;
+  padding: 1.75rem;
+  flex-wrap: nowrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-evenly;
+}
+
+.icon {
+  width: 16.9375rem;
+  height: 3.75rem;
+  border-radius: 6.25rem;
+  background: #E2D294;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
