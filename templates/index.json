@@ -42,6 +42,9 @@
     "icons": {
       "type": "card-with-icons",
       "settings": {
+        "iconHeading": "<p>Essential Nutrients to Support<\/p>",
+        "iconSubHeading": "<p>Fertility + Early Pregnancy<\/p>",
+        "iconInfo": "<p>Your complete vitamin routine to prepare your body \u2028for pregnancy and support fertility—all in one daily pack.<\/p>"
       }
     },
     "testimonials": {

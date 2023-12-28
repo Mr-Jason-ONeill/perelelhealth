@@ -1,6 +1,14 @@
 <div class="icon-container">
     <div class="icon-wrapper">
-        {{ section.settings.icons }}
+        <div class="icon-heading"> {{ section.settings.iconHeading }}</div>
+        <div class="icon-subHeading"> {{ section.settings.iconSubHeading }}</div>
+        <div class="icon-information"> {{ section.settings.iconInfo }}</div>
+        <div class="icons">
+            <div class="shop-now-btn">1</div>
+            <div class="shop-now-btn">2</div>
+            <div class="shop-now-btn">3</div>
+            <div class="shop-now-btn">4</div>
+        </div>
     </div>
 </div>
 
@@ -10,9 +18,17 @@
       "name": "icons",
       "settings": [
           {
-              "type": "image_picker",
-              "id": "icons",
-              "label": "Icons"
+              "type": "richtext",
+              "id": "iconHeading",
+              "label": "Icon Section Heading"
+          }, {
+              "type": "richtext",
+              "id": "iconSubHeading",
+              "label": "Icon Section Sub Heading"
+          },  {
+              "type": "richtext",
+              "id": "iconInfo",
+              "label": "Icon Section Information"
           }
       ]
     }

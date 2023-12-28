@@ -213,10 +213,46 @@ height: 3.125rem;
 
 .info-table {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  padding-bottom: 2rem;
+}
 
+.info-table-left,
+.info-table-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #767676;
+  width: 50%;
+  padding: 1rem;
+}
+
+.info-table-left {
+  margin-left: 15%;
+}
+
+.info-table-right {
+  margin-right: 15%;
 }
 
 .info-button {
   width: 100%;
+}
+
+/* ----------- Icons ------------ */
+.icon-container {
+  width: 100%;
+}
+
+.icon-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.icons {
+  display: flex;
+  flex-direction: row;
 }
