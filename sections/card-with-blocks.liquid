@@ -1,9 +1,19 @@
 <div class="block-container">
     <div class="block-wrapper">
         <h2 class="block-heading">{{ section.settings.blockHeading }}</h2>
-        <div class="block">
-        {{ section.settings.blocks }}
+        <div class="column-container">
+            <div class="column1">
+                <div class="column-info">{{ section.settings.cartText }}</div>
+                    {% if section.settings.cartDisplay %}
+                        <img class="cart-display" src="{{ section.settings.cartDisplay | image_url }}" alt="Add To Cart">
+                    {% endif %}
+                    <button class="addToCart">Add To Cart</button> 
+            </div>
+            <div class="column2">
+                {{ section.settings.blocks }}
+            </div>
         </div>
+
     </div>
 </div>
 
@@ -17,9 +27,17 @@
               "id": "blockHeading",
               "label": "Title for Section"
           }, {
+              "type": "richtext",
+              "id": "cartText",
+              "label": "Text area"
+          }, {
               "type": "image_picker",
               "id": "blocks",
               "label": "Block section"
+          }, {
+              "type": "image_picker",
+              "id": "cartDisplay",
+              "label": "Add to Cart display"
           }
       ]
     }

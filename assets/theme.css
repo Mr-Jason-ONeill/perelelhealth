@@ -90,13 +90,17 @@ body {
 
 
 /* ------------ Buttons -------- */
-.shop-now-btn {
+.shop-now-btn,
+.addToCart {
     width: 21.875rem;
     height: 3.125rem;
     border-radius: 3.125rem;
     background: #E2D294;
 }
 
+.addToCart {
+height: 3.125rem;
+}
 
 
 
@@ -126,4 +130,33 @@ body {
     margin-right: auto;
     background-color:antiquewhite;
     overflow: hidden;
+  }
+
+  /* --------- Add to Cart Block ------ */
+  .block-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .block-heading {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .column-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .column1,
+  .column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cart-display {
+    max-width: 500px;
   }

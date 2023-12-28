@@ -20,6 +20,14 @@
         "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  Dairy-Fr<\/p>"
       }
     },
+    "blocks": {
+      "type": "card-with-blocks",
+      "settings": {
+        "blockHeading": "<p>Your Pre-Pregnancy Routine Starts Here<\/p>",
+        "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
+        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png"
+      }
+    },
     "testimonials": {
       "type": "testimonials",
       "settings": {
@@ -45,22 +53,17 @@
       "type": "card-with-comparison",
       "settings": {
       }
-    },
-    "blocks": {
-      "type": "card-with-blocks",
-      "settings": {
-      }
     }
   },
   "order": [
     "index",
     "image",
     "marquee",
+    "blocks",
     "testimonials",
     "recipes",
     "info",
     "icons",
-    "comparison",
-    "blocks"
+    "comparison"
   ]
 }
