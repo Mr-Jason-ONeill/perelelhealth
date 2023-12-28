@@ -29,6 +29,16 @@
         "points": "<ul><li>Formulated by top fertility doctors<\/li><li>Helps prepare your body for pregnancy<\/li><li>Supports Egg Health<\/li><li>May Help Support Ovulation<\/li><li>Supports Early-Stage Pregnancy<\/li><\/ul>"
       }
     },
+    "info": {
+      "type": "card-with-info",
+      "settings": {
+        "infoHeading": "<p>A Look Inside Your \"Pre\" Prenatal Vitamin Pack<\/p>",
+        "infoParagraph": "<p>Conception Support Pack* is specifically made to prepare your body for pregnancy. Most prenatal vitamins are one-size-fits-all, and don’t consider the unique nutrient needs of this chapter.*<\/p>",
+        "infoImage": "shopify:\/\/shop_images\/pills.png",
+        "left": "<p>Not ready to get pregnant right now?  Don't worry, <br\/>this pack is for you! \u2028\u2028<\/p>",
+        "right": "<p>Our medical panel recommends taking our Conception Support Pack* at least 6 months before you’re ready to begin trying to get pregnant.<\/p>"
+      }
+    },
     "icons": {
       "type": "card-with-icons",
       "settings": {
@@ -45,11 +55,6 @@
       "settings": {
       }
     },
-    "info": {
-      "type": "card-with-info",
-      "settings": {
-      }
-    },
     "comparison": {
       "type": "card-with-comparison",
       "settings": {
@@ -61,10 +66,10 @@
     "image",
     "marquee",
     "bulletpoints",
+    "info",
     "icons",
     "testimonials",
     "recipes",
-    "info",
     "comparison"
   ]
 }

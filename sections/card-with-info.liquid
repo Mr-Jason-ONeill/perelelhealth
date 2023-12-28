@@ -1,6 +1,23 @@
 <div class="info-container">
     <div class="info-wrapper">
-        {{ section.settings.info }}
+        <h2 class="info-heading">{{ section.settings.infoHeading }}</h2>
+        <p class="information-p">
+            {{ section.settings.infoParagraph }}
+        </p>
+        <div class="info-image">
+            {{ section.settings.infoImage |  image_url: width: 900 |  image_tag  }}
+        </div>
+        <div class="info-table">
+            <div class="info-table-left">
+                {{ section.settings.left }}
+            </div>
+            <div class="info-table-right">
+                {{ section.settings.right }}
+            </div>   
+        </div>
+        <div class="info-button">
+            <button class="shop-now-btn">Shop Now</button>
+        </div>
     </div>
 </div>
 
@@ -10,9 +27,25 @@
       "name": "information",
       "settings": [
           {
+              "type": "richtext",
+              "id": "infoHeading",
+              "label": "Information Title"
+          }, {
+              "type": "richtext",
+              "id": "infoParagraph",
+              "label": "Information Area"
+          }, {
               "type": "image_picker",
-              "id": "info",
-              "label": "Information"
+              "id": "infoImage",
+              "label": "Information Image"
+          }, {
+              "type": "richtext",
+              "id": "left",
+              "label": "Leftside Table Information"
+          }, {
+              "type": "richtext",
+              "id": "right",
+              "label": "Rightside Table Information"
           }
       ]
     }
