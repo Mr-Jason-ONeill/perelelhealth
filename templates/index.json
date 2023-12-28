@@ -20,12 +20,18 @@
         "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  Dairy-Fr<\/p>"
       }
     },
-    "blocks": {
-      "type": "card-with-blocks",
+    "bulletpoints": {
+      "type": "card-with-bulletpoints",
       "settings": {
         "blockHeading": "<p>Your Pre-Pregnancy Routine Starts Here<\/p>",
         "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
-        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png"
+        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png",
+        "points": "<ul><li>Formulated by top fertility doctors<\/li><li>Helps prepare your body for pregnancy<\/li><li>Supports Egg Health<\/li><li>May Help Support Ovulation<\/li><li>Supports Early-Stage Pregnancy<\/li><\/ul>"
+      }
+    },
+    "icons": {
+      "type": "card-with-icons",
+      "settings": {
       }
     },
     "testimonials": {
@@ -44,11 +50,6 @@
       "settings": {
       }
     },
-    "icons": {
-      "type": "card-with-icons",
-      "settings": {
-      }
-    },
     "comparison": {
       "type": "card-with-comparison",
       "settings": {
@@ -59,11 +60,11 @@
     "index",
     "image",
     "marquee",
-    "blocks",
+    "bulletpoints",
+    "icons",
     "testimonials",
     "recipes",
     "info",
-    "icons",
     "comparison"
   ]
 }

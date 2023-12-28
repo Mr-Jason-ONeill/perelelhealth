@@ -1,6 +1,6 @@
-<div class="block-container">
-    <div class="block-wrapper">
-        <h2 class="block-heading">{{ section.settings.blockHeading }}</h2>
+<div class="point-container">
+    <div class="point-wrapper">
+        <h2 class="point-heading">{{ section.settings.blockHeading }}</h2>
         <div class="column-container">
             <div class="column1">
                 <div class="column-info">{{ section.settings.cartText }}</div>
@@ -10,17 +10,16 @@
                     <button class="addToCart">Add To Cart</button> 
             </div>
             <div class="column2">
-                {{ section.settings.blocks }}
+                {{ section.settings.points }}
             </div>
         </div>
-
     </div>
 </div>
 
 
 {% schema %}
     {
-      "name": "blocks",
+      "name": "bulletpoints",
       "settings": [
         {
               "type": "richtext",
@@ -32,12 +31,12 @@
               "label": "Text area"
           }, {
               "type": "image_picker",
-              "id": "blocks",
-              "label": "Block section"
-          }, {
-              "type": "image_picker",
               "id": "cartDisplay",
               "label": "Add to Cart display"
+          }, {
+              "type": "richtext",
+              "id": "points",
+              "label": "Bulletpoint section"
           }
       ]
     }
