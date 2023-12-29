@@ -4,49 +4,46 @@
             <h2 class="recipe-title">{{ section.settings.recipeTitle | strip }}</h2>
             <div class="ingredients">Ingredients:</div>
             <div class="ingredient-block">
-                <ul>
-                    {% for ingredient in recipeIngredients %}
-                        <li>{{ ingredient }}</li>
-                    {% endfor %}
-                </ul>
+                {% for ingredient in section.blocks.ingredient %}
+                    {{ ingredient.settings.ingredient | newline_to_br }}
+                {% endfor %}
             </div>
-            
         </div>
 
         <div class="recipe-image">
-            {{ section.settings.recipeImage |  image_url: width: 400 |  image_tag  }}
+            {{ section.settings.recipeImage | image_url: width: 400 | image_tag }}
         </div>
     </div>
 </div>
 
-
 {% schema %}
+{
+  "name": "recipes",
+  "settings": [
     {
-      "name": "recipes",
+      "type": "richtext",
+      "id": "recipeTitle",
+      "label": "Recipe Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "recipeImage",
+      "label": "Recipe Image"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "ingredient",
+      "type": "richtext",
       "settings": [
-          {
-              "type": "richtext",
-              "id": "recipeTitle",
-              "label": "Recipe Title"
-          }, {
-              "type": "image_picker",
-              "id": "recipeImage",
-              "label": "Recipe Image"
-          }
-      ],
-      "blocks": [
         {
-            "name": "Ingredient",
-            "type": "richtext",
-            "settings": [
-                {
-                    "type": "textarea",
-                    "id": "ingredient",
-                    "label": "Add an Ingredient to the Recipe"
-                }
-            ]
-
+          "type": "textarea",
+          "id": "ingredient",
+          "label": "Add an Ingredient to the Recipe"
         }
       ]
     }
-  {% endschema %}
+  ]
+}
+{% endschema %}
+
