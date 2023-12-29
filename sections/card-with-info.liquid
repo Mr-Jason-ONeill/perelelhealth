@@ -1,8 +1,8 @@
 <div class="info-container">
     <div class="info-wrapper">
-        <h2 class="info-heading">{{ section.settings.infoHeading }}</h2>
+        <h2 class="info-heading">{{ section.settings.infoHeading |  strip }}</h2>
         <p class="information-p">
-            {{ section.settings.infoParagraph }}
+            {{ section.settings.infoParagraph |  strip }}
         </p>
         <div class="info-image">
             {{ section.settings.infoImage |  image_url: width: 900 |  image_tag  }}

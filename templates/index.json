@@ -50,84 +50,11 @@
     "testimonials": {
       "type": "testimonials",
       "settings": {
-        "testimonials": ""
-      }
-    },
-    "recipes": {
-      "type": "card-with-recipes",
-      "settings": {
-      }
-    },
-    "comparison": {
-      "type": "card-with-comparison",
-      "settings": {
-      }
-    }
-  },
-  "order": [
-    "index",
-    "image",
-    "marquee",
-    "bulletpoints",
-    "info",
-    "icons",
-    "testimonials",
-    "recipes",
-    "comparison"
-  ]
-{
-  "sections": {
-    "index": {
-      "type": "hero",
-      "settings": {
-        "hero": "shopify:\/\/shop_images\/hero.png",
-        "heroHeading": "<p>This is where the title will go<\/p><p><\/p>",
-        "heroContext": "<p>This is where the information will go<\/p>"
-      }
-    },
-    "image": {
-      "type": "card-with-image",
-      "settings": {
-        "imageCard": "shopify:\/\/shop_images\/perelelbox.png"
-      }
-    },
-    "marquee": {
-      "type": "marquee",
-      "settings": {
-        "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  Dairy-Fr<\/p>"
-      }
-    },
-    "bulletpoints": {
-      "type": "card-with-bulletpoints",
-      "settings": {
-        "blockHeading": "<p>Your Pre-Pregnancy Routine Starts Here<\/p>",
-        "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
-        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png",
-        "points": "<ul><li>Formulated by top fertility doctors<\/li><li>Helps prepare your body for pregnancy<\/li><li>Supports Egg Health<\/li><li>May Help Support Ovulation<\/li><li>Supports Early-Stage Pregnancy<\/li><\/ul>"
-      }
-    },
-    "info": {
-      "type": "card-with-info",
-      "settings": {
-        "infoHeading": "<p>A Look Inside Your \"Pre\" Prenatal Vitamin Pack<\/p>",
-        "infoParagraph": "<p>Conception Support Pack* is specifically made to prepare your body for pregnancy. Most prenatal vitamins are one-size-fits-all, and don’t consider the unique nutrient needs of this chapter.*<\/p>",
-        "infoImage": "shopify:\/\/shop_images\/pills.png",
-        "left": "<p>Not ready to get pregnant right now?  Don't worry, <br\/>this pack is for you! \u2028\u2028<\/p>",
-        "right": "<p>Our medical panel recommends taking our Conception Support Pack* at least 6 months before you’re ready to begin trying to get pregnant.<\/p>"
-      }
-    },
-    "icons": {
-      "type": "card-with-icons",
-      "settings": {
-        "iconHeading": "<p>Essential Nutrients to Support<\/p>",
-        "iconSubHeading": "<p>Fertility + Early Pregnancy<\/p>",
-        "iconInfo": "<p>Your complete vitamin routine to prepare your body \u2028for pregnancy and support fertility—all in one daily pack.<\/p>"
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "settings": {
-        "testimonials": ""
+        "testimonialHeading": "<p>Let’s talk about some of the other ways to support your fertility—<\/p>",
+        "testimonialSubHeading": "<p>in addition to a conception vitamin routine.<\/p>",
+        "testimonialContent1": "<p>What to Do:<br\/><br\/>Check in with your doctor.<br\/>Together, you can make sure there are no imbalances or irregularities to address, and make a plan to go off hormonal birth control if you’re on it.<br\/><\/p>",
+        "testimonialContent2": "<p>What to Eat:<br\/><br\/>Follow the conception diet.<br\/>Prioritize balanced, nutritious meals and nutrients that support fertility, like folate.<br\/><\/p>",
+        "testimonialContent3": "<p>What to Avoid:<br\/><br\/>Cut back on vices like smoking \u2028and alcohol. <br\/>These habits can have a negative impact on fertility.<br\/><\/p>"
       }
     },
     "recipes": {
