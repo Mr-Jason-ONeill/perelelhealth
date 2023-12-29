@@ -1,6 +1,16 @@
 <div class="recipe-container">
     <div class="recipe-wrapper">
-        {{ section.settings.recipes }}
+        <div class="recipe-ingredients">
+            <h2 class="recipe-title">{{ section.settings.recipeTitle | strip }}</h2>
+            <div class="ingredients">Ingredients:</div>
+            <div class="ingredient-block">
+                {{ section.settings.recipeIngredients }}
+            </div>
+        </div>
+
+        <div class="recipe-image">
+            {{ section.settings.recipeImage |  image_url: width: 400 |  image_tag  }}
+        </div>
     </div>
 </div>
 
@@ -10,9 +20,17 @@
       "name": "recipes",
       "settings": [
           {
-              "type": "image_picker",
-              "id": "recipes",
+              "type": "richtext",
+              "id": "recipeTitle",
+              "label": "Recipe Title"
+          }, {
+              "type": "richtext",
+              "id": "recipeIngredients",
               "label": "Recipe"
+          }, {
+              "type": "image_picker",
+              "id": "recipeImage",
+              "label": "Recipe Image"
           }
       ]
     }

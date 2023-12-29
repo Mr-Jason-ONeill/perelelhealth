@@ -4,8 +4,8 @@
       "type": "hero",
       "settings": {
         "hero": "shopify:\/\/shop_images\/hero.png",
-        "heroHeading": "<p>This is where the title will go<\/p><p><\/p>",
-        "heroContext": "<p>This is where the information will go<\/p>"
+        "heroHeading": "<p>let’s prepare your body for pregnancy<\/p><p><\/p>",
+        "heroContext": "<p>With a doctor-formulated routine to support your fertility<\/p><p><\/p><p><\/p>"
       }
     },
     "image": {
@@ -60,6 +60,9 @@
     "recipes": {
       "type": "card-with-recipes",
       "settings": {
+        "recipeTitle": "<p>The Fertility Smoothie<br\/>RECIPE<\/p>",
+        "recipeIngredients": "",
+        "recipeImage": "shopify:\/\/shop_images\/recipe_image.png"
       }
     },
     "comparison": {

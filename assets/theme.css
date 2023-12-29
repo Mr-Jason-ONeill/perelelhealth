@@ -327,10 +327,32 @@ height: 3.125rem;
 
 .test-block {
   background-color: #FFF;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height: 23rem;
+  width: 23rem;
+  margin-bottom: 5rem;
 }
 
 .test-heading,
 .test-subheading {
   text-align: center;
   justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.test-svg {
+  padding: 1rem;
+}
+
+/* ------------- Recipes ------------- */
+
+.recipe-container {
+  width: 100%;
+  display: flex;
+}
+
+.recipe-wrapper {
+  flex-direction: row;
 }
