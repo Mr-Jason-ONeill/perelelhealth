@@ -59,9 +59,33 @@
     },
     "recipes": {
       "type": "card-with-recipes",
+      "blocks": {
+        "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2": {
+          "type": "richtext",
+          "settings": {
+            "ingredient": ""
+          }
+        },
+        "4ea57976-b4d1-4610-8f6d-92e829fb968d": {
+          "type": "richtext",
+          "settings": {
+            "ingredient": ""
+          }
+        },
+        "906e0e36-b2bf-496a-a89c-b6dac5dd1703": {
+          "type": "richtext",
+          "settings": {
+            "ingredient": ""
+          }
+        }
+      },
+      "block_order": [
+        "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2",
+        "4ea57976-b4d1-4610-8f6d-92e829fb968d",
+        "906e0e36-b2bf-496a-a89c-b6dac5dd1703"
+      ],
       "settings": {
         "recipeTitle": "<p>The Fertility Smoothie<br\/>RECIPE<\/p>",
-        "recipeIngredients": "",
         "recipeImage": "shopify:\/\/shop_images\/recipe_image.png"
       }
     },
