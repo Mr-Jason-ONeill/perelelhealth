@@ -63,37 +63,37 @@
         "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1 Scoop Perelel Synbiotic Greens Powder"
+            "steps": "1 Scoop Perelel Synbiotic Greens Powder"
           }
         },
         "4ea57976-b4d1-4610-8f6d-92e829fb968d": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1\/2 C whole milk greek yogurt"
+            "steps": "1\/2 C whole milk greek yogurt"
           }
         },
         "906e0e36-b2bf-496a-a89c-b6dac5dd1703": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1\/2 small avocado (or 1\/4 C frozen cubed)"
+            "steps": "1\/2 small avocado (or 1\/4 C frozen cubed)"
           }
         },
         "cb915463-4a02-4093-80d5-00561517766f": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1\/2 to 1 C milk of choice"
+            "steps": "1\/2 to 1 C milk of choice"
           }
         },
         "5f00bd91-6fa4-4eb3-8f9d-640578a722f4": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1 C spinach"
+            "steps": "1 C spinach"
           }
         },
         "a8bf0ce6-7bf0-4ac1-bc1d-c6eb35a81296": {
           "type": "richtext",
           "settings": {
-            "ingredient": "1\/2 C frozen berries"
+            "steps": "1\/2 C frozen berries"
           }
         }
       },

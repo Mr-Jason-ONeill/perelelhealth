@@ -363,7 +363,8 @@ height: 3.125rem;
 }
 
 .recipe-title,
-.ingredients {
+.ingredients,
+.ingredient-block {
   color: #AE9E45;
   font-family: Poppins;
   font-size: 1.5625rem;
