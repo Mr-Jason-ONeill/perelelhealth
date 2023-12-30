@@ -1,0 +1,22 @@
+<div class="overlap-container">
+    <div class="overlap-wrapper">
+        <div class="image">
+        {{ section.settings.imageLayer | image_url: width: 1500 | image_tag}}
+        </div>
+    </div>
+</div>
+
+
+
+{% schema %}
+    {
+      "name": "overlap",
+      "settings": [
+          {
+              "type": "image_picker",
+              "id": "imageLayer",
+              "label": "Image Layer"
+          }
+      ]
+    }
+  {% endschema %}
