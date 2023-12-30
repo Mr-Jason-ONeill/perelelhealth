@@ -9,7 +9,7 @@
       }
     },
     "image": {
-      "type": "card-with-image",
+      "type": "image",
       "settings": {
         "imageCard": "shopify:\/\/shop_images\/perelelbox.png"
       }
@@ -21,7 +21,7 @@
       }
     },
     "bulletpoints": {
-      "type": "card-with-bulletpoints",
+      "type": "bulletpoints",
       "settings": {
         "blockHeading": "<p>Your Pre-Pregnancy Routine Starts Here<\/p>",
         "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
@@ -30,7 +30,7 @@
       }
     },
     "info": {
-      "type": "card-with-info",
+      "type": "information",
       "settings": {
         "infoHeading": "<p>A Look Inside Your \"Pre\" Prenatal Vitamin Pack<\/p>",
         "infoParagraph": "<p>Conception Support Pack* is specifically made to prepare your body for pregnancy. Most prenatal vitamins are one-size-fits-all, and don’t consider the unique nutrient needs of this chapter.*<\/p>",
@@ -40,7 +40,7 @@
       }
     },
     "icons": {
-      "type": "card-with-icons",
+      "type": "icons",
       "settings": {
         "iconHeading": "<p>Essential Nutrients to Support<\/p>",
         "iconSubHeading": "<p>Fertility + Early Pregnancy<\/p>",
@@ -58,7 +58,7 @@
       }
     },
     "recipes": {
-      "type": "card-with-recipes",
+      "type": "recipes",
       "blocks": {
         "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2": {
           "type": "richtext",
@@ -111,7 +111,7 @@
       }
     },
     "comparison": {
-      "type": "card-with-comparison",
+      "type": "comparison",
       "settings": {
       }
     }
