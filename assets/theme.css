@@ -150,7 +150,38 @@ height: 3.125rem;
     overflow: hidden;
   }
 
-  /* --------- Add to Cart Block ------ */
+
+  /* --------- Image with Overlapping message ------- */
+.overlap-container {
+  width: 100%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.overlap-wrapper {
+  position: relative;
+}
+
+.image-overlap img {
+  display: block;
+  height: auto; 
+  padding-bottom: 3%;
+}
+
+.overlap-context {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+  text-align: center; 
+  background: #E2D294;
+}
+
+
+
+  /* --------- Bulletpoint Block ------ */
   .point-container {
     width: 100%;
     height: auto;

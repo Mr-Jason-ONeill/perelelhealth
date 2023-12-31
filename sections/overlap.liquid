@@ -1,7 +1,22 @@
 <div class="overlap-container">
     <div class="overlap-wrapper">
-        <div class="image">
-        {{ section.settings.imageLayer | image_url: width: 1500 | image_tag}}
+        <div class="image-overlap">
+        {{ section.settings.imageLayer | image_url: width: 500 | image_tag}}
+        </div>
+        <div class="overlap-context">
+            <div class="overlap-title">
+                {{ section.settings.overlapTitle }}
+            </div>
+            <br/>
+            <div class="overlap-text1">
+                {{ section.settings.overlapContext1 }}
+            </div>
+            <br/>
+            <div class="overlap-text2">
+                {{ section.settings.overlapContext2}}
+            </div>
+            <br/>
+
         </div>
     </div>
 </div>
@@ -16,6 +31,18 @@
               "type": "image_picker",
               "id": "imageLayer",
               "label": "Image Layer"
+          }, {
+              "type": "text",
+              "id": "overlapTitle",
+              "label": "Overlap Title"
+          }, {
+              "type": "richtext",
+              "id": "overlapContext1",
+              "label": "Overlap Context"
+          }, {
+              "type": "richtext",
+              "id": "overlapContext2",
+              "label": "Overlap Context"
           }
       ]
     }
