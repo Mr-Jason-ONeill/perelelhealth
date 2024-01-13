@@ -200,18 +200,53 @@ height: 3.125rem;
 
 .image-overlap img {
   display: block;
-  height: auto; 
+  width: 41.5rem;
+  height: 43rem; 
   padding-bottom: 3%;
 }
 
 .overlap-context {
   position: absolute;
-  top: 50%; 
+  padding-left: 5rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  width: 32.625rem;
+  height: 29.25rem; /* Would be 32rem but minus 3rem from padding-top */
+  top: 65%; 
   left: 50%; 
   transform: translate(-50%, -50%);
   z-index: 1; 
-  text-align: center; 
   background: #E2D294;
+}
+
+.overlap-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.125rem; /* 166.667% */
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}
+
+.overlap-text1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+
+.overlap-text2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.25rem;
+  text-decoration-line: underline;
 }
 
 
