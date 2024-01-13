@@ -119,6 +119,14 @@
         "overlapContext2": "<p>To start, let’s learn about when during your cycle you’re most likely to get pregnant.<\/p>"
       }
     },
+    "quote": {
+      "type": "quote",
+      "settings": {
+        "quoteTitle": "ask an expert",
+        "quoteText1": "<p>I’ve been taking hormonal birth control—\u2028will that impact my chances?<\/p>",
+        "quoteText2": "<p>“No, that’s an old wive’s tale. Birth control pills these days are very low-dose and they’re very reversible. By stopping hormonal birth control, a woman should be able to get pregnant very easily and it doesn’t matter if she’s been on two weeks of birth control or ten years.”<\/p>"
+      }
+    },
     "comparison": {
       "type": "comparison",
       "settings": {
@@ -135,7 +143,7 @@
     "testimonials",
     "recipes",
     "overlap",
+    "quote",
     "comparison"
   ]
-  
-  }
+}
