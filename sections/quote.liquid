@@ -1,59 +1,61 @@
 <div class="quote-container">
-    <div class="quote-wrapper">
-        <div class="quote-context">
-            <div class="quote-title">
-                {{ section.settings.quoteTitle |  uppercase}}
-            </div>
-            <br/>
-            <div class="quote-text1">
-                {{ section.settings.quoteText1 }}
-            </div>
-            <br/>
-            <div class="quote-text2">
-                {{ section.settings.quoteText2 }}
-            </div>
-            <br/>
-        <div class="account">
+  <div class="quote-wrapper">
+    <div class="quote-context">
+      <div class="quote-title">
+        {{ section.settings.quoteTitle | uppercase }}
+      </div>
+      <br/>
+      <div class="quote-text1">
+        {{ section.settings.quoteText1 }}
+      </div>
+      <br/>
+      <div class="quote-text2">
+        {{ section.settings.quoteText2 }}
+      </div>
+      <br/>
+      <div class="account">
         <div class="account-image">
-        {{ section.settings.accountImage | image_url: width: 150 | image_tag}}
+          {{ section.settings.accountImage | image_url: width: 150 | image_tag }}
         </div>
         <br/>
-            <div class="account-user">
-                {{ section.settings.accountDetails}}
-            </div>
-            <br/>
+        <div class="account-user">
+          {{ section.settings.accountDetails }}
         </div>
-        </div>
-    </div> 
+        <br/>
+      </div>
+    </div>
+  </div>
 </div>
 
 
-
 {% schema %}
-    {
-      "name": "quote",
-      "settings": [
-          {
-              "type": "image_picker",
-              "id": "accountImage",
-              "label": "Account Image"
-          }, {
-              "type": "text",
-              "id": "quoteTitle",
-              "label": "Quote Title"
-          }, {
-              "type": "richtext",
-              "id": "quoteText1",
-              "label": "Quote SubHeading"
-          },  {
-              "type": "richtext",
-              "id": "quoteText2",
-              "label": "Main Quote Text "
-          }, {
-              "type": "text",
-              "id": "accountDetails",
-              "label": "User's Name and Position"
-          }
-      ]
-    }
-  {% endschema %}
+  {
+    "name": "quote",
+    "settings": [
+      {
+        "type": "text",
+        "id": "quoteTitle",
+        "label": "Quote Title"
+      },
+      {
+        "type": "richtext",
+        "id": "quoteText1",
+        "label": "Quote SubHeading"
+      },
+      {
+        "type": "image_picker",
+        "id": "accountImage",
+        "label": "Account Image"
+      },
+      {
+        "type": "richtext",
+        "id": "quoteText2",
+        "label": "Main Quote Text "
+      }, {
+        "type": "text",
+        "id": "accountDetails",
+        "label": "User's Name and Position"
+      }
+    ]
+  }
+{% endschema %}

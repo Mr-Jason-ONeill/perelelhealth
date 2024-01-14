@@ -547,6 +547,7 @@ height: 3.125rem;
 
 .comparison-subtitle {
   color: #000;
+  text-align: center;
   font-family: Abel;
   font-size: 1.875rem;
   font-style: normal;

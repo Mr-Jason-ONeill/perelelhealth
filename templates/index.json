@@ -122,9 +122,9 @@
     "quote": {
       "type": "quote",
       "settings": {
-        "accountImage": "shopify:\/\/shop_images\/user.png",
         "quoteTitle": "ask an expert",
         "quoteText1": "<p>I’ve been taking hormonal birth control—\u2028will that impact my chances?<\/p>",
+        "accountImage": "shopify:\/\/shop_images\/user.png",
         "quoteText2": "<p>“No, that’s an old wive’s tale. Birth control pills these days are very low-dose and they’re very reversible. By stopping hormonal birth control, a woman should be able to get pregnant very easily and it doesn’t matter if she’s been on two weeks of birth control or ten years.”<\/p>",
         "accountDetails": "— Dr. Andy Huang, MD, FACOG"
       }
@@ -132,6 +132,13 @@
     "comparison": {
       "type": "comparison",
       "settings": {
+        "comparisonTitle": "You and your body deserve the best—",
+        "comparisonSubTitle": "now more than ever.",
+        "comparisonText1": "<p>That means relying on a vitamin regimen with the highest-quality ingredients. <br\/>But cobbling that routine together on your own can be time-consuming—and expensive.<\/p>",
+        "comparisonText2": "",
+        "oneVone": "<p>compare<\/p>",
+        "comparisonImage1": "shopify:\/\/shop_images\/pills.jpg",
+        "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png"
       }
     }
   },

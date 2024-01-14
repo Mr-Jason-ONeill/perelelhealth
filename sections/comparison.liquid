@@ -18,13 +18,13 @@
       <br/>
       <div class="compared-container">
         <div class="left-comparison">
-          {{ section.settings.leftImage | image_url: width: 400 | image_tag }}
+          {{ section.settings.comparisonImage1 | image_url: width: '400x400' | image_tag }}
         </div>
         <div class="center-comparison">
           {{ section.settings.oneVone }}
         </div>
         <div class="right-comparison">
-          {{ section.settings.rightImage | image_url: width: 400 | image_tag }}
+          {{ section.settings.comparisonImage2 | image_url: width: '400x400' | image_tag }}
         </div>
         <br/>
       </div>
@@ -62,11 +62,11 @@
         "label": "Comparison Area "
       }, {
         "type": "image_picker",
-        "id": "leftImage",
+        "id": "comparisonImage1",
         "label": "1st Image to compare"
       }, {
         "type": "image_picker",
-        "id": "rightImage",
+        "id": "comparisonImage2",
         "label": "2nd Image to compare"
       }
     ]
