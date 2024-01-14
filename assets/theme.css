@@ -520,3 +520,7 @@ height: 3.125rem;
   line-height: 1.5625rem;
 }
 
+.account {
+  display: flex;
+  justify-content: center;
+}
