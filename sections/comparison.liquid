@@ -12,10 +12,6 @@
         {{ section.settings.comparisonText1 }}
       </div>
       <br/>
-      <div class="comparison-text2">
-        {{ section.settings.comparisonText2 }}
-      </div>
-      <br/>
     </div>
 
     <div class="compared-container">
@@ -27,15 +23,15 @@
       </div>
 
       <div class="compared-block">
-        <p class="compared-product">{{ section.settings.comparisonInformation1 }}</p>
-        <div class="compared-stats"></div>
+        <p class="compared-product">{{ section.settings.productSentence }}</p>
+        <div class="compared-stats">{{ section.settings.oneVone }}</div>
       </div>
 
       <div class="compared-block">
         <div class="compared-img-right">
           {{ section.settings.comparisonImage2 | image_url: width: 480 | image_tag }}
         </div>
-        <p class="compared-product">{{ section.settings.comparisonInformation1 }}</p>
+        <p class="compared-product">{{ section.settings.comparisonInformation2 }}</p>
       </div>
     </div>
   </div>
@@ -63,12 +59,12 @@
       },
       {
         "type": "richtext",
-        "id": "comparisonText2",
-        "label": "Text Area 2"
+        "id": "productSentence",
+        "label": "Comparison Description "
       }, {
         "type": "richtext",
         "id": "oneVone",
-        "label": "Comparison Area "
+        "label": "Comparison Stats "
       }, {
         "type": "image_picker",
         "id": "comparisonImage1",
