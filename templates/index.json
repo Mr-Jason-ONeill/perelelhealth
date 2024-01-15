@@ -138,7 +138,9 @@
         "comparisonText2": "",
         "oneVone": "<p>If you purchased similar vitamins individually, it would cost 203% more.<\/p>",
         "comparisonImage1": "shopify:\/\/shop_images\/pills.jpg",
-        "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png"
+        "comparisonInformation1": "Buying each supplement $150.22",
+        "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png",
+        "comparisonInformation2": ""
       }
     }
   },
