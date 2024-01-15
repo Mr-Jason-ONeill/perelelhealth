@@ -532,6 +532,7 @@ height: 3.125rem;
 
 .comparison-container {
   width: 100%;
+  height: auto;
 }
 
 .comparison-title {
@@ -571,3 +572,8 @@ height: 3.125rem;
   flex-direction: row;
   
 }
+
+/* .left-comparison img,
+.right-comparison img{
+  height: 30rem;
+} */
