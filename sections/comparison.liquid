@@ -16,19 +16,26 @@
         {{ section.settings.comparisonText2 }}
       </div>
       <br/>
-      <div class="compared-container">
-        <div class="left-comparison">
+    </div>
+
+    <div class="compared-container">
+      <div class="compared-block">
+        <div class="compared-img-left">
           {{ section.settings.comparisonImage1 | image_url: width: 480 | image_tag }}
-          <p class="product-information">{{ section.settings.comparisonInformation1 }}</p>
         </div>
-        <div class="center-comparison">
-          {{ section.settings.oneVone }}
-        </div>
-        <div class="right-comparison">
+        <p class="compared-product">{{ section.settings.comparisonInformation1 }}</p>
+      </div>
+
+      <div class="compared-block">
+        <p class="compared-product">{{ section.settings.comparisonInformation1 }}</p>
+        <div class="compared-stats"></div>
+      </div>
+
+      <div class="compared-block">
+        <div class="compared-img-right">
           {{ section.settings.comparisonImage2 | image_url: width: 480 | image_tag }}
-          <p class="product-information">{{ section.settings.comparisonInformation2 }}</p>
         </div>
-        <br/>
+        <p class="compared-product">{{ section.settings.comparisonInformation1 }}</p>
       </div>
     </div>
   </div>

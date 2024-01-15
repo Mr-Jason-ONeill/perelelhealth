@@ -580,8 +580,18 @@ height: 3.125rem;
   align-items: center;
 }
 
-.left-comparison img,
-.right-comparison img {
+.compared-img-left img,
+.compared-img-right img{
   border-radius: 50%;
   height: 30rem;
+}
+
+.compared-block {
+  background-color: #FFF;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height: 23rem;
+  width: 23rem;
+  margin-bottom: 5rem;
 }
