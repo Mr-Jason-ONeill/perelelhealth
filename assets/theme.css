@@ -535,10 +535,10 @@ height: 3.125rem;
   height: auto;
 }
 
-/* .comparison-wrapper {
-  padding-left: 10rem;
-  padding-right: 10rem;
-} */
+.comparison-wrapper {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
 
 .comparison-title {
   color: #000;
@@ -589,4 +589,5 @@ height: 3.125rem;
 .compared-block {
   text-align: center;
   justify-content: center;
+  padding: 2rem;
 }
