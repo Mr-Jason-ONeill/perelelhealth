@@ -535,6 +535,11 @@ height: 3.125rem;
   height: auto;
 }
 
+.comparison-wrapper {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
 .comparison-title {
   color: #000;
   text-align: center;
@@ -570,10 +575,13 @@ height: 3.125rem;
 .compared-container {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
-/* .left-comparison img,
-.right-comparison img{
+.left-comparison img,
+.right-comparison img {
+  border-radius: 50%;
   height: 30rem;
-} */
+}
