@@ -47,16 +47,6 @@
         "iconInfo": "<p>Your complete vitamin routine to prepare your body \u2028for pregnancy and support fertility—all in one daily pack.<\/p>"
       }
     },
-    "testimonials": {
-      "type": "testimonials",
-      "settings": {
-        "testimonialHeading": "<p>Let’s talk about some of the other ways to support your fertility—<\/p>",
-        "testimonialSubHeading": "<p>in addition to a conception vitamin routine.<\/p>",
-        "testimonialContent1": "<p>What to Do:<br\/><br\/>Check in with your doctor.<br\/>Together, you can make sure there are no imbalances or irregularities to address, and make a plan to go off hormonal birth control if you’re on it.<br\/><\/p>",
-        "testimonialContent2": "<p>What to Eat:<br\/><br\/>Follow the conception diet.<br\/>Prioritize balanced, nutritious meals and nutrients that support fertility, like folate.<br\/><\/p>",
-        "testimonialContent3": "<p>What to Avoid:<br\/><br\/>Cut back on vices like smoking \u2028and alcohol. <br\/>These habits can have a negative impact on fertility.<br\/><\/p>"
-      }
-    },
     "recipes": {
       "type": "recipes",
       "blocks": {
@@ -135,8 +125,8 @@
         "comparisonTitle": "You and your body deserve the best—",
         "comparisonSubTitle": "now more than ever.",
         "comparisonText1": "<p>That means relying on a vitamin regimen with the highest-quality ingredients. <br\/>But cobbling that routine together on your own can be time-consuming—and expensive.<\/p>",
+        "productSentence": "<p>If you purchased similar vitamins individually, it would cost 203% more.<\/p>",
         "oneVone": "",
-        "productSentence": "If you purchased similar vitamins individually, it would cost 203% more.",
         "comparisonImage1": "shopify:\/\/shop_images\/pills.jpg",
         "comparisonInformation1": "Buying each supplement $150.22",
         "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png",
@@ -154,7 +144,6 @@
     "recipes",
     "overlap",
     "quote",
-    "comparison",
-    "testimonials"
+    "comparison"
   ]
 }
