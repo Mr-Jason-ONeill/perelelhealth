@@ -430,24 +430,41 @@ height: 3.125rem;
 
 .test-block,
 .what-block {
+  display: flex;
   background-color: #FFF;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 23rem;
   width: 23rem;
   margin-bottom: 5rem;
+  flex-direction: column;
+  align-items: center;
 }
 
-.test-heading,
-.test-subheading {
+.what-heading,
+.what-subheading {
   text-align: center;
   justify-content: center;
   padding-bottom: 1rem;
 }
 
-.test-svg {
+.what-svg {
   padding: 1rem;
+}
+
+.stars {
+  padding-top: 2rem;
+}
+
+.test-content {
+  color: #636363;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
 }
 
 /* ------------- Recipes ------------- */

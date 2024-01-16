@@ -4,21 +4,29 @@
 
     <div class="test-blocks-container">
       <div class="test-block">
-        <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
+        <p class="test-content">
+          <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
+          </p>
+          <br/>
+          {{ section.settings.testimonialContent1 | strip }}
         </p>
-        <p class="test-content">{{ section.settings.testimonialContent1 | strip }}</p>
       </div>
 
       <div class="test-block">
-        <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
-        </p>
-        <p class="test-content">{{ section.settings.testimonialContent2 | strip }}</p>
+        <p class="test-content">
+          <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
+          </p>
+          <br/>
+          {{ section.settings.testimonialContent2 | strip }}</p>
       </div>
 
       <div class="test-block">
-        <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
+        <p class="test-content">
+          <p class="stars">&#x2605; &#x2605; &#x2605; &#x2605; &#x2605;
+          </p>
+          <br/>
+          {{ section.settings.testimonialContent3 | strip }}
         </p>
-        <p class="test-content">{{ section.settings.testimonialContent3 | strip }}</p>
       </div>
 
     </div>
