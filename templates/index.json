@@ -132,6 +132,16 @@
         "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png",
         "comparisonInformation2": "Perelel’s Conception Support Pack* $49.50 \/ month"
       }
+    },
+    "whatTo": {
+      "type": "whatTo",
+      "settings": {
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -141,9 +151,11 @@
     "bulletpoints",
     "info",
     "icons",
+    "whatTo",
     "recipes",
     "overlap",
     "quote",
-    "comparison"
+    "comparison",
+    "testimonials"
   ]
 }
