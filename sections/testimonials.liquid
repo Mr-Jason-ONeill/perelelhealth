@@ -1,67 +1,42 @@
 <div class="test-container">
-    <div class="test-wrapper">
-        <h2 class="test-heading">{{ section.settings.testimonialHeading |  strip }}</h2>
-        <h3 class="test-subheading">{{ section.settings.testimonialSubHeading |  strip }}</h3>
+  <div class="test-wrapper">
 
-        <div class="test-blocks-container">
-            <div class="test-block">
-                <div class="test-svg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                <circle cx="22.6758" cy="23.3237" r="21.6758" stroke="#D4C48B" stroke-width="2"/>
-                </svg>
-                </div>
-                <p class="test-content">{{ section.settings.testimonialContent1 |  strip }}</p>
-            </div>
 
-            <div class="test-block">
-                <div class="test-svg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="27" viewBox="0 0 13 27" fill="none">
-                <path d="M6.68638 11.8747C3.8284 11.8747 1.50049 9.53721 1.50049 6.66204C1.50049 3.78686 3.8284 1.44495 6.68638 1.44495C9.54437 1.44495 11.8723 3.78686 11.8723 6.66204C11.8723 9.53721 9.54437 11.8791 6.68638 11.8791V11.8747ZM6.68638 1.88933C4.07135 1.88933 1.94222 4.03127 1.94222 6.66204C1.94222 9.2928 4.07135 11.4347 6.68638 11.4347C9.30142 11.4347 11.4305 9.2928 11.4305 6.66204C11.4305 4.03127 9.30142 1.88933 6.68638 1.88933Z" fill="#D4C48B" stroke="#D4C48B" stroke-width="2" stroke-miterlimit="10"/>
-                <path d="M6.68638 25.0464C3.8284 25.0464 1.50049 22.7044 1.50049 19.8293C1.50049 16.9541 3.8284 14.6122 6.68638 14.6122C9.54437 14.6122 11.8723 16.9497 11.8723 19.8293C11.8723 22.7089 9.54437 25.0464 6.68638 25.0464ZM6.68638 15.061C4.07135 15.061 1.94222 17.203 1.94222 19.8337C1.94222 22.4645 4.07135 24.6064 6.68638 24.6064C9.30142 24.6064 11.4305 22.4645 11.4305 19.8337C11.4305 17.203 9.30142 15.061 6.68638 15.061Z" fill="#D4C48B" stroke="#D4C48B" stroke-width="2" stroke-miterlimit="10"/>
-                </svg>
-                </div>
-                <p class="test-content">{{ section.settings.testimonialContent2 |  strip }}</p>
-            </div>
+    <div class="test-blocks-container">
+      <div class="test-block">
+        <p class="test-content">{{ section.settings.testimonialContent1 | strip }}</p>
+      </div>
 
-            <div class="test-block">
-                <div class="test-svg">
-                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">
-                <circle cx="22.6758" cy="23.3237" r="21.6758" stroke="#D4C48B" stroke-width="2"/>
-                </svg>
-                </div>
-                <p class="test-content">{{ section.settings.testimonialContent3 |  strip }}</p>
-            </div>
+      <div class="test-block">
+        <p class="test-content">{{ section.settings.testimonialContent2 | strip }}</p>
+      </div>
 
-        </div>
+      <div class="test-block">
+        <p class="test-content">{{ section.settings.testimonialContent3 | strip }}</p>
+      </div>
+
     </div>
+  </div>
 </div>
 
 
 {% schema %}
-    {
-      "name": "testimonials",
-      "settings": [
-          {
-              "type": "richtext",
-              "id": "testimonialHeading",
-              "label": "Title for Testimonials"
-          }, {
-              "type": "richtext",
-              "id": "testimonialSubHeading",
-              "label": "Sub Title for Testimonials"
-          }, {
-              "type": "richtext",
-              "id": "testimonialContent1",
-              "label": "Content for Testimonial Block 1"
-          }, {
-              "type": "richtext",
-              "id": "testimonialContent2",
-              "label": "Content for Testimonial Block 2"
-          }, {
-              "type": "richtext",
-              "id": "testimonialContent3",
-              "label": "Content for Testimonial Block 3"
-          }
-      ]
-    }
-  {% endschema %}
+  {
+    "name": "testimonials",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "testimonialContent1",
+        "label": "Content for Testimonial Block 1"
+      }, {
+        "type": "richtext",
+        "id": "testimonialContent2",
+        "label": "Content for Testimonial Block 2"
+      }, {
+        "type": "richtext",
+        "id": "testimonialContent3",
+        "label": "Content for Testimonial Block 3"
+      }
+    ]
+  }
+{% endschema %}

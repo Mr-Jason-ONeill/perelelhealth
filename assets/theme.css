@@ -410,14 +410,16 @@ height: 3.125rem;
   align-items: center;
 }
 
-/* ----------- Testimonials ---------- */
-.test-container {
+/* ----------- Testimonials & What To sections---------- */
+.test-container,
+.what-container {
   width: 100%;
   height: auto;
   background: #EDE6CC;
 }
 
-.test-blocks-container {
+.test-blocks-container,
+.what-blocks-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -426,7 +428,8 @@ height: 3.125rem;
   align-items: center;
 }
 
-.test-block {
+.test-block,
+.what-block {
   background-color: #FFF;
   flex-wrap: wrap;
   text-align: center;
