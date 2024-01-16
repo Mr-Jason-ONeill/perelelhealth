@@ -150,6 +150,12 @@
         "testimonialContent2": "<p>\" I really love Perelel! Their vitamins are formulated so well and helped me to feel great. I also really appreciate how much they care for their customers. Such a great product and company. Absolutely will get them for every pregnancy & in between!!\"<br\/><br\/><strong>- Bynne<\/strong><\/p>",
         "testimonialContent3": "<p>\" After trying just about every prenatal on the market, this is the only one I'll be using ever again! The packs are super convenient and easy to take, (no huge pills) and doesn't make me nauseous. I love that it includes the added B6 & ginger for those first trimester days when nothing wants to stay down. Thanks for making a great product!\"<br\/><br\/><strong>- Kathryn A<\/strong><\/p>"
       }
+    },
+    "sponsors": {
+      "type": "sponsors",
+      "settings": {
+        "sponsorImage1": "shopify:\/\/shop_images\/sponsors.png"
+      }
     }
   },
   "order": [
@@ -164,6 +170,7 @@
     "overlap",
     "quote",
     "comparison",
-    "testimonials"
+    "testimonials",
+    "sponsors"
   ]
 }

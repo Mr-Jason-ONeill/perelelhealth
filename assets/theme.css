@@ -176,13 +176,17 @@ height: 3.125rem;
 
 .sponsor-container {
   width: 100%;
-  height: 5.9rem;
+  height: auto;
 }
 
 .sponsor-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.sponsor {
+  height: auto;
 }
 
 

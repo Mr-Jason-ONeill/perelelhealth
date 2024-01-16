@@ -1,21 +1,21 @@
 <div class="sponsor-container">
   <div class="sponsor-wrapper">
     <div class="sponsor">
-      {{ section.settings.sponsorImage1 | image_url: width: 500 | image_tag }}
+      {{ section.settings.sponsorImage1 | image_url: width: 1500 | image_tag }}
     </div>
+  <!--
     <div class="sponsor">
-      {{ section.settings.sponsorImage2 | image_url: width: 500 | image_tag }}
-    </div>
-    <div class="sponsor">
-      {{ section.settings.sponsorImage3 | image_url: width: 500 | image_tag }}
-    </div>
-    <div class="sponsor">
-      {{ section.settings.sponsorImage4 | image_url: width: 500 | image_tag }}
-    </div>
-    <div class="sponsor">
-      {{ section.settings.sponsorImage5 | image_url: width: 500 | image_tag }}
-    </div>
-
+{{ section.settings.sponsorImage2 | image_url: width: 150 | image_tag }}
+  </div>
+  <div class="sponsor">
+    {{ section.settings.sponsorImage3 | image_url: width: 150 | image_tag }}
+  </div>
+  <div class="sponsor">
+    {{ section.settings.sponsorImage4 | image_url: width: 150 | image_tag }}
+  </div>
+  <div class="sponsor">
+    {{ section.settings.sponsorImage5 | image_url: width: 150 | image_tag }}
+  </div> -->
   </div>
 </div>
 
@@ -28,26 +28,27 @@
         "type": "image_picker",
         "id": "sponsorImage1",
         "label": "Sponsor Image 1"
-      },
-      {
-        "type": "image_picker",
-        "id": "sponsorImage2",
-        "label": "Sponsor Image 2"
-      },
-      {
-        "type": "image_picker",
-        "id": "sponsorImage3",
-        "label": "Sponsor Image 3"
-      },
-      {
-        "type": "image_picker",
-        "id": "sponsorImage4",
-        "label": "Sponsor Image 4"
-      }, {
-        "type": "image_picker",
-        "id": "sponsorImage5",
-        "label": "Sponsor Image 5"
       }
     ]
   }
 {% endschema %}
+
+<!-- {
+  "type": "image_picker",
+  "id": "sponsorImage2",
+  "label": "Sponsor Image 2"
+  },
+  {
+  "type": "image_picker",
+  "id": "sponsorImage3",
+  "label": "Sponsor Image 3"
+  },
+  {
+  "type": "image_picker",
+  "id": "sponsorImage4",
+  "label": "Sponsor Image 4"
+  }, {
+  "type": "image_picker",
+  "id": "sponsorImage5",
+  "label": "Sponsor Image 5"
+  } -->
