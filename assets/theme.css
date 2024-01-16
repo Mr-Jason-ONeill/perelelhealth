@@ -172,6 +172,21 @@ height: 3.125rem;
     text-transform: uppercase;
 }
 
+/* ---------- Sponsors ---------- */
+
+.sponsor-container {
+  width: 100%;
+  height: 5.9rem;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
 
 /* --------- Image Card ------ */
 .image-container {
