@@ -25,8 +25,7 @@
       "settings": {
         "blockHeading": "Your Pre-Pregnancy Routine Starts Here",
         "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal <\/p><p>vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
-        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png",
-        "points": "<ul><li>Formulated by top fertility doctors<\/li><li>Helps prepare your body for pregnancy<\/li><li>Supports Egg Health<\/li><li>May Help Support Ovulation<\/li><li>Supports Early-Stage Pregnancy<\/li><\/ul>"
+        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png"
       }
     },
     "info": {
@@ -109,8 +108,9 @@
         "a8bf0ce6-7bf0-4ac1-bc1d-c6eb35a81296"
       ],
       "settings": {
-        "recipeTitle": "<p>The Fertility Smoothie<\/p><p><br\/>RECIPE<\/p>",
-        "recipeImage": "shopify:\/\/shop_images\/recipe_image.png"
+        "recipeTitle": "<p>The Fertility Smoothie<br\/>Recipe<\/p>",
+        "recipeImage": "shopify:\/\/shop_images\/recipe_image.png",
+        "recipeInfo": "Support hormonal balance and egg health with this recipe from Perelel Panelist Stephanie Lauri, RD.*"
       }
     },
     "overlap": {

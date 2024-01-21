@@ -1,9 +1,12 @@
 <div class="recipe-container">
   <div class="recipe-wrapper">
     <div class="recipe-ingredients">
-      <h2 class="recipe-title">{{ section.settings.recipeTitle | strip }}</h2>
+      <div class="recipe-title">{{ section.settings.recipeTitle | strip }}</div>
+      <br/>
+      <div class="recipe-info">{{ section.settings.recipeInfo | strip }}</div>
+      <br/>
       <div class="ingredients">Ingredients:</div>
-
+      <br/>
       <div class="ingredient-block">
         <ul>
           {% for block in section.blocks %}
@@ -35,6 +38,10 @@
         "type": "image_picker",
         "id": "recipeImage",
         "label": "Recipe Image"
+      }, {
+        "type": "textarea",
+        "id": "recipeInfo",
+        "label": "Recipe Description"
       }
     ],
     "blocks": [
