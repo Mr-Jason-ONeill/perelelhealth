@@ -363,15 +363,18 @@ height: 3.125rem;
 /* ---------- Information Card -------- */
 .info-container {
   width: 100%;
+  background: #F4F2E9;
 }
 
 .info-wrapper {
-  width: 100%;
+  margin-left: 6rem;
+  margin-right: 6rem;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .info-heading {
@@ -384,6 +387,8 @@ height: 3.125rem;
   line-height: 3.125rem;
   text-decoration-line: underline;
   text-transform: capitalize;
+  padding-top: 4.44rem;
+  padding-bottom: 1.19rem;
 }
 
 .information-p {
@@ -415,10 +420,23 @@ height: 3.125rem;
 
 .info-table-left {
   margin-left: 15%;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem;
+  text-decoration-line: underline;
 }
 
 .info-table-right {
   margin-right: 15%;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 156.25% */
 }
 
 .info-button {

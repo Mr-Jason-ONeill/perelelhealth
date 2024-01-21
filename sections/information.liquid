@@ -5,7 +5,7 @@
       {{ section.settings.infoParagraph | strip }}
     </div>
     <div class="info-image">
-      {{ section.settings.infoImage | image_url: width: 2000 | image_tag }}
+      {{ section.settings.infoImage | image_url: width: 1000 | image_tag }}
     </div>
     <div class="info-table">
       <div class="info-table-left">
@@ -46,7 +46,7 @@
         "id": "left",
         "label": "Leftside Table Information"
       }, {
-        "type": "richtext",
+        "type": "textarea",
         "id": "right",
         "label": "Rightside Table Information"
       }
