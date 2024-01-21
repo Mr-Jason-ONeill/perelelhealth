@@ -13,8 +13,14 @@
         <button class="addToCart">Add To Cart</button>
       </div>
       <div class="column2">
-        {{ section.settings.points }}
+        <ul>
+          {% for li in section.ul %}
+            <li>{{ li.settings.points | capitalize }}</li>
+            <hr>
+          {% endfor %}
+        </ul>
       </div>
+
     </div>
   </div>
 </div>
