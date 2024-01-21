@@ -1,7 +1,7 @@
 <div class="what-container">
   <div class="what-wrapper">
-    <h2 class="what-heading">{{ section.settings.whatHeading | strip }}</h2>
-    <h3 class="what-subheading">{{ section.settings.whatSubHeading | strip }}</h3>
+    <div class="what-heading">{{ section.settings.whatHeading | strip }}</div>
+    <div class="what-subheading">{{ section.settings.whatSubHeading | strip }}</div>
 
     <div class="what-blocks-container">
       <div class="what-block">
@@ -20,7 +20,8 @@
               stroke-width="2" />
           </svg>
         </div>
-        <p class="what-content">{{ section.settings.whatContent1 | strip }}</p>
+        <div class="what-block-title">{{ section.settings.blockTitle1 }}</div>
+        <div class="what-content">{{ section.settings.whatContent1 | strip }}</div>
       </div>
 
       <div class="what-block">
@@ -45,7 +46,8 @@
               stroke-miterlimit="10" />
           </svg>
         </div>
-        <p class="what-content">{{ section.settings.whatContent2 | strip }}</p>
+        <div class="what-block-title">{{ section.settings.blockTitle2 }}</div>
+        <div class="what-content">{{ section.settings.whatContent2 | strip }}</div>
       </div>
 
       <div class="what-block">
@@ -64,7 +66,8 @@
               stroke-width="2" />
           </svg>
         </div>
-        <p class="what-content">{{ section.settings.whatContent3 | strip }}</p>
+        <div class="what-block-title">{{ section.settings.blockTitle3 }}</div>
+        <div class="what-content">{{ section.settings.whatContent3 | strip }}</div>
       </div>
 
     </div>
@@ -77,28 +80,40 @@
     "name": "whatTo",
     "settings": [
       {
-        "type": "richtext",
+        "type": "text",
         "id": "whatHeading",
-        "label": "Title for What To: Section"
+        "label": "Title for: Section"
       },
       {
-        "type": "richtext",
+        "type": "text",
         "id": "whatSubHeading",
-        "label": "Sub Title for What To: Section"
+        "label": "Sub Title for: Section"
+      },
+      {
+        "type": "text",
+        "id": "blockTitle1",
+        "label": "Title for: Block 1"
       },
       {
         "type": "richtext",
         "id": "whatContent1",
-        "label": "Content for What to: Block 1"
-      },
-      {
+        "label": "Content for: Block 1"
+      }, {
+        "type": "text",
+        "id": "blockTitle2",
+        "label": "Title for: Block 2"
+      }, {
         "type": "richtext",
         "id": "whatContent2",
-        "label": "Content for What to: Block 2"
+        "label": "Content for: Block 2"
+      }, {
+        "type": "text",
+        "id": "blockTitle3",
+        "label": "Title for: Block"
       }, {
         "type": "richtext",
         "id": "whatContent3",
-        "label": "Content for What to: Block 3"
+        "label": "Content for: Block 3"
       }
     ]
   }
