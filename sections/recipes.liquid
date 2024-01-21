@@ -1,58 +1,55 @@
 <div class="recipe-container">
-    <div class="recipe-wrapper">
-        <div class="recipe-ingredients">
-            <h2 class="recipe-title">{{ section.settings.recipeTitle | strip }}</h2>
-            <div class="ingredients">Ingredients:</div>
+  <div class="recipe-wrapper">
+    <div class="recipe-ingredients">
+      <h2 class="recipe-title">{{ section.settings.recipeTitle | strip }}</h2>
+      <div class="ingredients">Ingredients:</div>
 
-            <div class="ingredient-block">
-              <ul>
-                {% for block in section.blocks %}
-                  <li>{{ block.settings.steps |  capitalize }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-            
+      <div class="ingredient-block">
+        <ul>
+          {% for block in section.blocks %}
+            <li>{{ block.settings.steps | capitalize }}</li>
+            <hr>
+          {% endfor %}
+        </ul>
+      </div>
 
-        </div>
 
-        <div class="recipe-image">
-            {{ section.settings.recipeImage | image_url: width: 400 | image_tag }}
-        </div>
     </div>
+
+    <div class="recipe-image">
+      {{ section.settings.recipeImage | image_url: width: 400 | image_tag }}
+    </div>
+  </div>
 </div>
 
 
 {% schema %}
-    {
-      "name": "recipes",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "recipeTitle",
-          "label": "Recipe Title"
-        },
-        {
-          "type": "image_picker",
-          "id": "recipeImage",
-          "label": "Recipe Image"
-        }
-      ],
-      "blocks": [
-        {
-          "name": "Recipe Step",
-          "type": "richtext",
-          "limit": 10,
-          "settings": [
-            {
-              "type": "textarea",
-              "id": "steps",
-              "label": "Add a step to the Recipe"
-            }
-          ]
-        }
-      ]
-    }
-    {% endschema %}
-
-  
-  
+  {
+    "name": "recipes",
+    "settings": [
+      {
+        "type": "richtext",
+        "id": "recipeTitle",
+        "label": "Recipe Title"
+      }, {
+        "type": "image_picker",
+        "id": "recipeImage",
+        "label": "Recipe Image"
+      }
+    ],
+    "blocks": [
+      {
+        "name": "Recipe Step",
+        "type": "richtext",
+        "limit": 10,
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "steps",
+            "label": "Add a step to the Recipe"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

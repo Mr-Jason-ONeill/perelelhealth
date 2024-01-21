@@ -52,8 +52,11 @@
       "settings": {
         "whatHeading": "<p>Let’s talk about some of the other ways to support your fertility—<\/p>",
         "whatSubHeading": "<p>in addition to a conception vitamin routine.<\/p>",
+        "blockTitle1": "",
         "whatContent1": "<p><strong>What to Do:<\/strong><br\/><br\/>Check in with your doctor.<br\/>Together, you can make sure there are no imbalances or irregularities to address, and make a plan to go off hormonal birth control if you’re on it.<br\/><\/p>",
+        "blockTitle2": "",
         "whatContent2": "<p><strong>What to Eat:<\/strong><br\/><br\/>Follow the conception diet.<br\/>Prioritize balanced, nutritious meals and nutrients that support fertility, like folate.<br\/><\/p>",
+        "blockTitle3": "",
         "whatContent3": "<p><strong>What to Avoid:<\/strong><br\/><br\/>Cut back on vices like smoking \u2028and alcohol. <br\/>These habits can have a negative impact on fertility.<br\/><\/p>"
       }
     },
@@ -106,7 +109,7 @@
         "a8bf0ce6-7bf0-4ac1-bc1d-c6eb35a81296"
       ],
       "settings": {
-        "recipeTitle": "<p>The Fertility Smoothie<br\/>RECIPE<\/p>",
+        "recipeTitle": "<p>The Fertility Smoothie<\/p><p><br\/>RECIPE<\/p>",
         "recipeImage": "shopify:\/\/shop_images\/recipe_image.png"
       }
     },
