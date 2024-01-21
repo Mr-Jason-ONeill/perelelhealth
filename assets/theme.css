@@ -229,6 +229,7 @@ height: 3.125rem;
     max-width: 2000px;
     width: 100%;
     height: auto;
+    background-color: #efeae2;
 }
 
 .image-wrapper {
@@ -563,6 +564,21 @@ height: 3.125rem;
 
 .what-heading {
   padding-top: 4.81rem;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8125rem; /* 150% */
+}
+
+.what-subheading {
+  color: #000;
+  font-family: 'Abel';
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8125rem;
 }
 
 .what-heading,
