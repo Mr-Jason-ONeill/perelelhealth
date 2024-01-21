@@ -6,33 +6,33 @@
       {% endif %}
     </div>
     <div class="hero-context">
-        <h2 class="hero-heading"> {{ section.settings.heroHeading }}</h2>
-        <h3 class="hero-paragraph"> {{ section.settings.heroContext }}</h3>
-        <button class="shop-now-btn">Shop Now</button>
+      <div class="hero-heading">
+        {{ section.settings.heroHeading }}</div>
+      <div class="hero-paragraph">
+        {{ section.settings.heroContext }}</div>
+      <button class="shop-now-btn">Shop Now</button>
     </div>
   </div>
 </div>
-
-
 
 
 {% schema %}
   {
     "name": "hero",
     "settings": [
-        {
-            "type": "image_picker",
-            "id": "hero",
-            "label": "Hero Image"
-        }, {
-            "type": "richtext",
-            "id": "heroHeading",
-            "label": "Hero Title"
-        }, {
-            "type": "richtext",
-            "id": "heroContext",
-            "label": "Hero Information"
-        }
+      {
+        "type": "image_picker",
+        "id": "hero",
+        "label": "Hero Image"
+      }, {
+        "type": "textarea",
+        "id": "heroHeading",
+        "label": "Hero Title"
+      }, {
+        "type": "text",
+        "id": "heroContext",
+        "label": "Hero Information"
+      }
     ]
   }
 {% endschema %}

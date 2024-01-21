@@ -4,7 +4,7 @@
       "type": "hero",
       "settings": {
         "hero": "shopify:\/\/shop_images\/hero.png",
-        "heroHeading": "<p>let’s prepare your body for pregnancy<\/p><p><\/p>",
+        "heroHeading": "<p>let’s prepare your body <\/p><p>for pregnancy<\/p><p><\/p>",
         "heroContext": "<p>With a doctor-formulated routine to support your fertility<\/p><p><\/p><p><\/p>"
       }
     },
@@ -131,6 +131,7 @@
     },
     "comparison": {
       "type": "comparison",
+      "disabled": true,
       "settings": {
         "comparisonTitle": "You and your body deserve the best—",
         "comparisonSubTitle": "now more than ever.",
@@ -153,6 +154,7 @@
     },
     "sponsors": {
       "type": "sponsors",
+      "disabled": true,
       "settings": {
         "sponsorImage1": "shopify:\/\/shop_images\/sponsors.png"
       }
