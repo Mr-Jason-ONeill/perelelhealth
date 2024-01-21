@@ -65,6 +65,9 @@ li::marker {
 }
 
 .search-input {
+  padding-top: 0.62rem;
+  padding-left: 2.56rem;
+  padding-bottom: 0.38rem;
   border-radius: 6.25rem;
   border: 1px solid #8B8B8B;
 }
@@ -123,6 +126,7 @@ li::marker {
 
 .hero-paragraph {
   padding-top: 2.19rem;
+  padding-bottom: 1rem;
   color: #FFF;
   text-align: center;
   font-family: 'Poppins', 'Times New Roman', Times, serif;
@@ -152,13 +156,15 @@ height: 3.125rem;
   background-color: transparent;
   color: #655F5F;
   color: var(--Dark-Grey, #655F5F);
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.25rem;
   letter-spacing: 0.07rem;
   text-transform: uppercase;
+  padding-left: 1.5rem;
+  padding-right: 1.62rem;
 }
 
 
@@ -166,14 +172,18 @@ height: 3.125rem;
 /* --------- Marquee -------- */
 
 .marquee {
-    color: #000;
-    font-family: Poppins;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 2.5rem; /* 285.714% */
-    letter-spacing: 0.0525rem;
-    text-transform: uppercase;
+  display: flex;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.0525rem;
+  text-transform: uppercase;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ---------- Sponsors ---------- */
@@ -198,6 +208,7 @@ height: 3.125rem;
 
 /* --------- Image Card ------ */
 .image-container {
+  max-width: 2000px;
     width: 100%;
     height: auto;
 }

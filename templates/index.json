@@ -17,7 +17,7 @@
     "marquee": {
       "type": "marquee",
       "settings": {
-        "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  Dairy-Fr<\/p>"
+        "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  <\/p>"
       }
     },
     "bulletpoints": {
