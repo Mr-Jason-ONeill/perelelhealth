@@ -247,25 +247,22 @@ height: 3.125rem;
 
   /* --------- Image with Overlapping message ------- */
   .overlap-container {
+    position: relative;
     width: 100%;
     margin-bottom: 1rem;
 }
 
 .overlap-wrapper {
   display: flex;
-  /* margin-left: 10%; */
   margin-right: 20%;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .image-overlap img {
-  position: absolute;
-  top: 0;
-  left: 0;
   padding-bottom: 3%;
 }
 
@@ -276,7 +273,7 @@ height: 3.125rem;
   display: flex;
   width: 30%;
   height: 75%;
-  margin-left: 20%;
+  margin-right: 20%;
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 3rem;
@@ -291,7 +288,7 @@ height: 3.125rem;
 
 .overlap-title {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 500;
