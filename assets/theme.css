@@ -377,6 +377,10 @@ height: 3.125rem;
     max-width: 500px;
   }
 
+  .bulletpoint {
+    margin-right: 2rem;
+  }
+
 /* ---------- Information Card -------- */
 .info-container {
   width: 100%;
