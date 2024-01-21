@@ -1,52 +1,55 @@
 <div class="info-container">
-    <div class="info-wrapper">
-        <h2 class="info-heading">{{ section.settings.infoHeading |  strip }}</h2>
-        <p class="information-p">
-            {{ section.settings.infoParagraph |  strip }}
-        </p>
-        <div class="info-image">
-            {{ section.settings.infoImage |  image_url: width: 900 |  image_tag  }}
-        </div>
-        <div class="info-table">
-            <div class="info-table-left">
-                {{ section.settings.left }}
-            </div>
-            <div class="info-table-right">
-                {{ section.settings.right }}
-            </div>   
-        </div>
-        <div class="info-button">
-            <button class="shop-now-btn">Shop Now</button>
-        </div>
+  <div class="info-wrapper">
+    <div class="info-heading">{{ section.settings.infoHeading | strip }}</div>
+    <div class="information-p">
+      {{ section.settings.infoParagraph | strip }}
     </div>
+    <div class="info-image">
+      {{ section.settings.infoImage | image_url: width: 2000 | image_tag }}
+    </div>
+    <div class="info-table">
+      <div class="info-table-left">
+        {{ section.settings.left }}
+      </div>
+      <div class="info-table-right">
+        {{ section.settings.right }}
+      </div>
+    </div>
+    <div class="info-button">
+      <button class="shop-now-btn">Shop Now</button>
+    </div>
+  </div>
 </div>
 
 
 {% schema %}
-    {
-      "name": "information",
-      "settings": [
-          {
-              "type": "richtext",
-              "id": "infoHeading",
-              "label": "Information Title"
-          }, {
-              "type": "richtext",
-              "id": "infoParagraph",
-              "label": "Information Area"
-          }, {
-              "type": "image_picker",
-              "id": "infoImage",
-              "label": "Information Image"
-          }, {
-              "type": "richtext",
-              "id": "left",
-              "label": "Leftside Table Information"
-          }, {
-              "type": "richtext",
-              "id": "right",
-              "label": "Rightside Table Information"
-          }
-      ]
-    }
-  {% endschema %}
+  {
+    "name": "information",
+    "settings": [
+      {
+        "type": "text",
+        "id": "infoHeading",
+        "label": "Information Title"
+      },
+      {
+        "type": "textarea",
+        "id": "infoParagraph",
+        "label": "Information Area"
+      },
+      {
+        "type": "image_picker",
+        "id": "infoImage",
+        "label": "Information Image"
+      },
+      {
+        "type": "richtext",
+        "id": "left",
+        "label": "Leftside Table Information"
+      }, {
+        "type": "richtext",
+        "id": "right",
+        "label": "Rightside Table Information"
+      }
+    ]
+  }
+{% endschema %}

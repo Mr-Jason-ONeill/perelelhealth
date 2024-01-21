@@ -16,11 +16,18 @@ ul li {
   list-style: none;
   padding-left: 1rem;
   padding-bottom: 1rem;
+  color: #000;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.8125rem; /* 381.25% */
 }
 
 
 li::marker {
   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none"><g clip-path="url(%23clip0_49_737)"><path d="M14.4813 0C15.1679 0 15.8545 0 16.5412 0C16.9194 0.0473551 17.2982 0.088032 17.6753 0.14328C20.2348 0.517871 22.5989 1.41155 24.6539 2.98641C29.4932 6.69589 31.5652 11.6214 30.8683 17.6695C30.5732 20.2273 29.6213 22.575 28.0568 24.6259C24.3504 29.4859 19.4195 31.5646 13.3587 30.8701C10.7688 30.5732 8.41387 29.5781 6.32421 28.013C2.9141 25.4576 0.85784 22.0693 0.177882 17.8559C0.107458 17.42 0.0582821 16.9798 0 16.5421C0 15.8555 0 15.1688 0 14.4822C0.0473542 14.1039 0.0880302 13.7245 0.143277 13.3469C0.520896 10.7672 1.45037 8.40675 3.0161 6.31887C5.5708 2.91052 8.95844 0.856642 13.1699 0.177885C13.6052 0.10746 14.0442 0.0588904 14.4813 0ZM15.5328 2.423C8.35073 2.39447 2.47092 8.24768 2.42296 15.4748C2.375 22.6564 8.26392 28.5715 15.4897 28.6001C22.6717 28.6286 28.5515 22.7754 28.5995 15.5483C28.6475 8.36668 22.7586 2.45154 15.5328 2.423Z" fill="%23C8B87F"/><path d="M13.3958 17.941C13.5124 17.7777 13.5658 17.6757 13.6429 17.5986C15.9396 15.2982 18.2399 13.0015 20.5354 10.6993C20.9142 10.3199 21.3398 10.1292 21.8722 10.2956C22.6712 10.5451 22.9796 11.4782 22.4896 12.1564C22.4077 12.2699 22.3075 12.3719 22.2079 12.4721C19.6101 15.0712 17.0117 17.6696 14.4133 20.2681C13.7018 20.9796 13.0649 20.9778 12.3504 20.2638C11.1434 19.0575 9.93591 17.8524 8.73202 16.6436C8.27002 16.1797 8.17045 15.6333 8.44365 15.1325C8.85648 14.3778 9.78657 14.2698 10.4416 14.9157C11.3401 15.8015 12.2283 16.6988 13.1184 17.5931C13.1961 17.6714 13.2574 17.7661 13.3952 17.9404L13.3958 17.941Z" fill="%23C8B87F"/></g><defs><clipPath id="clip0_49_737"><rect width="31" height="31" fill="white"/></clipPath></defs></svg>');
+  padding-top: 1rem;
 }
 
 /* ---------- Navigations ------ */
@@ -181,6 +188,7 @@ height: 3.125rem;
 /* --------- Marquee -------- */
 
 .marquee {
+  background: #FAF5EB;
   display: flex;
   color: #000;
   font-family: 'Poppins';
@@ -193,6 +201,7 @@ height: 3.125rem;
   align-content: center;
   align-items: center;
   justify-content: center;
+  padding-top: 0.75rem;
 }
 
 /* ---------- Sponsors ---------- */
@@ -276,7 +285,7 @@ height: 3.125rem;
 
 .overlap-text1 {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -285,7 +294,7 @@ height: 3.125rem;
 
 .overlap-text2 {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
@@ -299,6 +308,16 @@ height: 3.125rem;
   .point-container {
     width: 100%;
     height: auto;
+  }
+
+  .point-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.44rem;
   }
 
   .point-heading {
@@ -358,7 +377,7 @@ height: 3.125rem;
 .info-heading {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 500;
@@ -368,14 +387,14 @@ height: 3.125rem;
 }
 
 .information-p {
+  display: flex;
   color: #636363;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5625rem;
-  text-decoration-line: underline;
 }
 
 .info-table {
