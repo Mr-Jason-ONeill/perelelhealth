@@ -96,6 +96,7 @@ li::marker {
 
 .hero-bg img {
   width: 100%;
+  height: auto;
   /* max-height: 100vh;
   object-fit: cover; */
 }
@@ -145,6 +146,14 @@ li::marker {
     border-radius: 3.125rem;
     border: none;
     background: #E2D294;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07rem;
 }
 
 .addToCart {
@@ -208,13 +217,14 @@ height: 3.125rem;
 
 /* --------- Image Card ------ */
 .image-container {
-  max-width: 2000px;
+    max-width: 2000px;
     width: 100%;
     height: auto;
 }
 
 .image-wrapper {
     width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color:antiquewhite;
@@ -294,11 +304,28 @@ height: 3.125rem;
   .point-heading {
     text-align: center;
     justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.125rem; /* 166.667% */
+    text-transform: capitalize;
   }
 
   .column-container {
     display: flex;
     flex-direction: row;
+  }
+
+  .column-info {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; /* 162.5% */
   }
 
   .column1,

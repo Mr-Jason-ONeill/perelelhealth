@@ -23,8 +23,8 @@
     "bulletpoints": {
       "type": "bulletpoints",
       "settings": {
-        "blockHeading": "<p>Your Pre-Pregnancy Routine Starts Here<\/p>",
-        "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
+        "blockHeading": "Your Pre-Pregnancy Routine Starts Here",
+        "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal <\/p><p>vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
         "cartDisplay": "shopify:\/\/shop_images\/addtocart.png",
         "points": "<ul><li>Formulated by top fertility doctors<\/li><li>Helps prepare your body for pregnancy<\/li><li>Supports Egg Health<\/li><li>May Help Support Ovulation<\/li><li>Supports Early-Stage Pregnancy<\/li><\/ul>"
       }
