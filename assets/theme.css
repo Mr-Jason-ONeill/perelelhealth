@@ -174,7 +174,6 @@ height: 3.125rem;
   border: none;
   background-color: transparent;
   color: #655F5F;
-  color: var(--Dark-Grey, #655F5F);
   font-family: 'Poppins';
   font-size: 0.875rem;
   font-style: normal;
@@ -215,13 +214,17 @@ height: 3.125rem;
 }
 
 .sponsor-wrapper {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.sponsor {
+.sponsor img {
   height: auto;
+  width: 100%;
+  overflow: hidden;
 }
 
 
@@ -229,7 +232,6 @@ height: 3.125rem;
 
 /* --------- Image Card ------ */
 .image-container {
-    max-width: 2000px;
     width: 100%;
     height: auto;
     background-color: #efeae2;
@@ -242,6 +244,10 @@ height: 3.125rem;
     margin-right: auto;
     background-color:antiquewhite;
     overflow: hidden;
+  }
+
+  .image img {
+    width: 100%;
   }
 
 
@@ -421,6 +427,7 @@ height: 3.125rem;
 }
 
 .information-p {
+  width: 50%;
   display: flex;
   color: #636363;
   text-align: center;
@@ -563,6 +570,11 @@ height: 3.125rem;
   margin-right: 5%;
 }
 
+.test-wrapper {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .test-blocks-container, 
 .what-blocks-container {
   display: flex;
@@ -576,6 +588,7 @@ height: 3.125rem;
 
 .test-block, 
 .what-block {
+  padding: 1rem;
   display: flex;
   background-color: #fff;
   flex-wrap: nowrap;
@@ -621,10 +634,18 @@ height: 3.125rem;
   padding-bottom: 1.47rem;
 }
 
-.test-content,
 .what-content {
   color: #000;
   font-family: 'Poppins';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.test-content {
+  color: #000;
+  font-family: 'Abel';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
