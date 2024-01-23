@@ -249,16 +249,18 @@ height: 3.125rem;
   }
 
   .image-context {
+    z-index: 2;
     position: absolute;
-    width: 50%;
-    transform: translatex(50%);
+    top: 20%;
+    width: 40%;
+    transform: translate(130%);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: center;
     align-items: center;
-  }
+}
 
   .image-title {
     color: #000;
@@ -267,6 +269,7 @@ height: 3.125rem;
     font-style: normal;
     font-weight: 500;
     line-height: 3.125rem; /* 250% */
+    padding-bottom: 1.38rem;
   }
 
   .image-text {
@@ -276,6 +279,11 @@ height: 3.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5625rem; /* 156.25% */
+    padding-bottom: 1.81rem;
+  }
+
+  .img-svg {
+    padding-bottom: 1rem;
   }
 
 
@@ -782,6 +790,7 @@ height: 3.125rem;
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3.31rem;
 }
 
 
@@ -800,7 +809,7 @@ height: 3.125rem;
 .comparison-title {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 500;
@@ -811,7 +820,7 @@ height: 3.125rem;
 .comparison-subtitle {
   color: #000;
   text-align: center;
-  font-family: Abel;
+  font-family: 'Abel';
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
@@ -822,19 +831,31 @@ height: 3.125rem;
 .comparison-text1 {
   color: #636363;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.625rem;
 }
 
+.compared-product {
+  color: #000;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .compared-container {
+  gap: 2rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
+  align-content: center;
 }
 
 .compared-img-left img,
