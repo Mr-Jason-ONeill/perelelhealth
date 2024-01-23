@@ -17,7 +17,7 @@
     <div class="compared-container">
       <div class="compared-block">
         <div class="compared-img-left">
-          {{ section.settings.comparisonImage1 | image_url: width: 480, height: 480 | image_tag }}
+          {{ section.settings.comparisonImage1 | image_url: width: 300, height: 300 | image_tag }}
         </div>
         <div class="compared-product">{{ section.settings.comparisonInformation1 }}</div>
       </div>
@@ -25,24 +25,22 @@
       <div class="compared-block">
         <div class="compared-product">{{ section.settings.productSentence }}</div>
         <div class="compared-stats">
-          <ul>
-            <li>Prenatal Vitamin</li>
+          <ul class="compared-items">
+            <li>Prenatal Vitamin
+              <span class="compared-costs">$40.00</span>
+            </li>
             <hr>
-            <li>CoQ10</li>
+            <li>CoQ10
+              <span class="compared-costs">$43.40</span>
+            </li>
             <hr>
-            <li>Omega-3 DHA + EPA</li>
+            <li>Omega-3 DHA + EPA
+              <span class="compared-costs">$41.82</span>
+            </li>
             <hr>
-            <li>Methylfolate</li>
-            <hr>
-          </ul>
-          <ul>
-            <li>$40.00</li>
-            <hr>
-            <li>$43.40</li>
-            <hr>
-            <li>$41.82</li>
-            <hr>
-            <li>$30.00</li>
+            <li>Methylfolate
+              <span class="compared-costs">$30.00</span>
+            </li>
             <hr>
           </ul>
         </div>
@@ -50,7 +48,7 @@
 
       <div class="compared-block">
         <div class="compared-img-right">
-          {{ section.settings.comparisonImage2 | image_url: width: 480, height: 480 | image_tag }}
+          {{ section.settings.comparisonImage2 | image_url: width: 300, height: 300 | image_tag }}
         </div>
         <div class="compared-product">{{ section.settings.comparisonInformation2 }}</div>
       </div>
