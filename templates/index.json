@@ -161,6 +161,14 @@
       "settings": {
         "sponsorImage1": "shopify:\/\/shop_images\/sponsors.png"
       }
+    },
+    "image_EK3gY9": {
+      "type": "image",
+      "disabled": true,
+      "settings": {
+        "imageHeading": "",
+        "imageContext": ""
+      }
     }
   },
   "order": [
@@ -176,6 +184,7 @@
     "quote",
     "comparison",
     "testimonials",
-    "sponsors"
+    "sponsors",
+    "image_EK3gY9"
   ]
 }
