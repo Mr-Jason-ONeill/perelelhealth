@@ -1,0 +1,141 @@
+@media screen and (max-width: 1200px) {
+    .column-container {
+        gap: 5rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .info-table {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 3.48rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info-table-left {
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1.5625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5rem;
+        text-decoration-line: underline;
+    }
+
+    .info-table-right {
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5625rem;
+    }
+
+    .icons {
+        gap: 1.44rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1.75rem;
+        padding-bottom: 3.81rem;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+  }
+
+  @media screen and (max-width: 768px ) {
+    .test-blocks-container, 
+    .what-blocks-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .test-block, .what-block {
+        padding: 1rem;
+        display: flex;
+        background-color: #fff;
+        text-align: center;
+        margin-bottom: 5rem;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        height: 23rem;
+    }
+
+    .recipe-wrapper {
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 5rem;
+        padding-bottom: 2.12rem;
+        gap: 6.88rem;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .quote-wrapper {
+        display: flex;
+        padding-top: 4.5rem;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .quote-context {
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+    .comparison-wrapper {
+        display: flex;
+        padding-left: 8rem;
+        padding-right: 8rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .compared-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .image-context {
+        position: absolute;
+        width: 40%;
+        transform: translate(130%);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    }
+
+
+  
