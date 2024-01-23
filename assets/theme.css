@@ -815,6 +815,7 @@ height: 3.125rem;
   font-weight: 500;
   line-height: 3.125rem;
   text-decoration-line: underline;
+  padding-top: 3.75rem;
 }
 
 .comparison-subtitle {
@@ -846,6 +847,15 @@ height: 3.125rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.compared-stats {
+  color: #5A5A5A;
+  font-family: 'Poppins';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.5rem; /* 285.714% */
 }
 
 .compared-container {

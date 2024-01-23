@@ -17,19 +17,40 @@
     <div class="compared-container">
       <div class="compared-block">
         <div class="compared-img-left">
-          {{ section.settings.comparisonImage1 | image_url: width: 480 height: 480 | image_tag }}
+          {{ section.settings.comparisonImage1 | image_url: width: 480, height: 480 | image_tag }}
         </div>
         <div class="compared-product">{{ section.settings.comparisonInformation1 }}</div>
       </div>
 
       <div class="compared-block">
         <div class="compared-product">{{ section.settings.productSentence }}</div>
-        <div class="compared-stats">{{ section.settings.oneVone }}</div>
+        <div class="compared-stats">
+          <ul>
+            <li>Prenatal Vitamin</li>
+            <hr>
+            <li>CoQ10</li>
+            <hr>
+            <li>Omega-3 DHA + EPA</li>
+            <hr>
+            <li>Methylfolate</li>
+            <hr>
+          </ul>
+          <ul>
+            <li>$40.00</li>
+            <hr>
+            <li>$43.40</li>
+            <hr>
+            <li>$41.82</li>
+            <hr>
+            <li>$30.00</li>
+            <hr>
+          </ul>
+        </div>
       </div>
 
       <div class="compared-block">
         <div class="compared-img-right">
-          {{ section.settings.comparisonImage2 | image_url: width: 480 height: 480 | image_tag }}
+          {{ section.settings.comparisonImage2 | image_url: width: 480, height: 480 | image_tag }}
         </div>
         <div class="compared-product">{{ section.settings.comparisonInformation2 }}</div>
       </div>
@@ -61,10 +82,6 @@
         "type": "richtext",
         "id": "productSentence",
         "label": "Comparison Description "
-      }, {
-        "type": "richtext",
-        "id": "oneVone",
-        "label": "Comparison Stats "
       }, {
         "type": "image_picker",
         "id": "comparisonImage1",

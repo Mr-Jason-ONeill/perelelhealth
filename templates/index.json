@@ -142,11 +142,10 @@
         "comparisonSubTitle": "now more than ever.",
         "comparisonText1": "<p>That means relying on a vitamin regimen with the highest-quality ingredients. <br\/>But cobbling that routine together on your own can be time-consuming—and expensive.<\/p>",
         "productSentence": "<p>If you purchased similar vitamins individually, it would cost 203% more.<\/p>",
-        "oneVone": "",
         "comparisonImage1": "shopify:\/\/shop_images\/pills.jpg",
-        "comparisonInformation1": "Buying each supplement $150.22",
+        "comparisonInformation1": "<p>Buying each supplement <strong>$150.22<\/strong><\/p>",
         "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png",
-        "comparisonInformation2": "Perelel’s Conception Support Pack* $49.50 \/ month"
+        "comparisonInformation2": "<p>Perelel’s Conception Support Pack*<strong> $49.50 \/ month<\/strong><\/p>"
       }
     },
     "testimonials": {
