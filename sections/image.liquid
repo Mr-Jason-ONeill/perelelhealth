@@ -5,12 +5,14 @@
         {{ section.settings.imageCard | image_url: width: 2000 | image_tag: preload: true }}
       {% endif %}
     </div>
-    <div class="image-context">
-      <div class="img-svg"></div>
-      <div class="image-title">{{ section.settings.imageHeading }}</div>
-      <div class="image-text">{{ section.settings.imageContext }}</div>
-      <button class="shop-now-btn" style="background-color: #fff;">Shop Now</button>
-    </div>
+    {% if section.settings.displayInfo == true %}
+      <div class="image-context">
+        <div class="img-svg"></div>
+        <div class="image-title">{{ section.settings.imageHeading }}</div>
+        <div class="image-text">{{ section.settings.imageContext }}</div>
+        <button class="shop-now-btn" style="background-color: #fff;">Shop Now</button>
+      </div>
+    {% endif %}
   </div>
 </div>
 
@@ -19,6 +21,10 @@
     "name": "imageCard",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "displayInfo",
+        "label": "Display Information?"
+      }, {
         "type": "image_picker",
         "id": "imageCard",
         "label": "Image"
