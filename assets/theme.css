@@ -60,7 +60,7 @@ hr {
 .nav-link > a {
   text-decoration: none;
   color: #655F5F;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
@@ -478,7 +478,7 @@ height: 3.125rem;
 .info-table {
   display: flex;
   flex-direction: row;
-  padding-bottom: 2rem;
+  padding-bottom: 3.48rem;
 }
 
 .info-table-left,
@@ -530,6 +530,7 @@ height: 3.125rem;
 }
 
 .icon-heading {
+  padding-top: 3.31rem;
   color: #000;
   text-align: center;
   font-family: 'Poppins';
@@ -696,14 +697,16 @@ height: 3.125rem;
 }
 
 .recipe-wrapper {
+  margin-right: 10%;
+  margin-left: 10%;
   padding-top: 5rem;
+  padding-bottom: 2.12rem;
+  gap: 6.88rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: flex-start;
   align-content: center;
-  flex-wrap: wrap;
-  padding-bottom: 2.12rem;
+  flex-wrap: nowrap;
 }
 
 .recipe-title,
@@ -717,12 +720,15 @@ height: 3.125rem;
 }
 
 .recipe-info {
+  display: flex;
   color: #000;
   font-family: 'Poppins';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem; /* 187.5% */
+  line-height: 1.875rem;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .ingredient-block {
@@ -757,7 +763,7 @@ height: 3.125rem;
 .quote-title {
   color: #000;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 600;
@@ -769,7 +775,7 @@ height: 3.125rem;
 .quote-text1 {
   color: #000;
   text-align: center;
-  font-family: Abel;
+  font-family: 'Abel';
   font-size: 1.5625rem;
   font-style: normal;
   font-weight: 400;
@@ -778,7 +784,7 @@ height: 3.125rem;
 
 .quote-text2 {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
