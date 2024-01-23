@@ -1,21 +1,21 @@
 <div class="marquee-container">
-    <div class="marquee-wrapper">
-        <div class="marquee">
-            {{ section.settings.marquee }}
-        </div>
+  <div class="marquee-wrapper">
+    <div class="marquee">
+      {{ section.settings.marquee }}
     </div>
+  </div>
 </div>
 
 
 {% schema %}
-    {
-      "name": "marquee",
-      "settings": [
-          {
-              "type": "richtext",
-              "id": "marquee",
-              "label": "Marquee"
-          }
-      ]
-    }
-  {% endschema %}
+  {
+    "name": "marquee",
+    "settings": [
+      {
+        "type": "text",
+        "id": "marquee",
+        "label": "Marquee"
+      }
+    ]
+  }
+{% endschema %}

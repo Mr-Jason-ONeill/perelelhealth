@@ -1,11 +1,18 @@
 <div class="image-container">
   <div class="image-wrapper">
-    <div class="image">
-      {{ section.settings.imageCard | image_url: width: 1600 | image_tag }}
+    <div class="bg-image">
+      {% if section.settings.imageCard %}
+        {{ section.settings.imageCard | image_url: width: 2000 | image_tag: preload: true }}
+      {% endif %}
+    </div>
+    <div class="image-context">
+      <div class="img-svg"></div>
+      <div class="image-title">{{ section.settings.imageHeading }}</div>
+      <div class="image-text">{{ section.settings.imageContext }}</div>
+      <button class="shop-now-btn">Shop Now</button>
     </div>
   </div>
 </div>
-
 
 {% schema %}
   {
@@ -15,6 +22,14 @@
         "type": "image_picker",
         "id": "imageCard",
         "label": "Image"
+      }, {
+        "type": "text",
+        "id": "imageHeading",
+        "label": "Image Title"
+      }, {
+        "type": "textarea",
+        "id": "imageContext",
+        "label": "Information"
       }
     ]
   }

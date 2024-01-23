@@ -157,6 +157,7 @@
     },
     "sponsors": {
       "type": "sponsors",
+      "disabled": true,
       "settings": {
         "sponsorImage1": "shopify:\/\/shop_images\/sponsors.png"
       }
