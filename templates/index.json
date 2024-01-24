@@ -125,6 +125,15 @@
         "overlapContext2": "<p>To start, let’s learn about when during your cycle you’re most likely to get pregnant.<\/p>"
       }
     },
+    "fertile_yGyt8Q": {
+      "type": "fertile",
+      "settings": {
+        "fertileImage": "shopify:\/\/shop_images\/fertile.svg",
+        "fertileTitle": "The Fertile Window",
+        "fertileSubtitle": "TWW: The Two Week Wait",
+        "fertileContext": "<p>The two weeks between ovulation and your anticipated next period is known as the “two week wait,” or TWW. It takes roughly two weeks after conception for the pregnancy hormone hCG to rise to a level that a pregnancy test can detect.<\/p>"
+      }
+    },
     "quote": {
       "type": "quote",
       "settings": {
@@ -182,6 +191,7 @@
     "whatTo",
     "recipes",
     "overlap",
+    "fertile_yGyt8Q",
     "quote",
     "comparison",
     "testimonials",

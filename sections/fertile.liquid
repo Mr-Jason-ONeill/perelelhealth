@@ -1,0 +1,50 @@
+<div class="fertile-container">
+  <div class="fertile-wrapper">
+    <div class="fertile-title">
+      {{ section.settings.fertileTitle }}</div>
+    <div class="fertile-overlap">
+      {{ section.settings.fertileImage | image_url: width: 500, height: 500 | image_tag }}
+    </div>
+    <div class="fertile-context-container">
+      <div class="fertile-subtitle">
+        {{ section.settings.fertileSubtitle }}
+      </div>
+      <br/>
+      <div class="fertile-text">
+        {{ section.settings.fertileContext }}
+      </div>
+      <br/>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "fertile",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "fertileImage",
+        "label": "Image Layer"
+      }, {
+        "type": "text",
+        "id": "fertileTitle",
+        "label": "Fertility Window Title"
+      }, {
+        "type": "text",
+        "id": "fertileSubtitle",
+        "label": "Fertility Window Subtitle"
+      }, {
+        "type": "richtext",
+        "id": "fertileContext",
+        "label": "Fertility Window Context"
+      }
+    ],
+    "presets": [
+      {
+        "name": "fertile"
+      }
+    ]
+  }
+{% endschema %}
