@@ -1,15 +1,29 @@
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .main-nav {
+        background-color: #F8F7F5;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
     .column-container {
         gap: 5rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
 
     .info-table {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding-bottom: 3.48rem;
         align-content: center;
         justify-content: center;
@@ -53,9 +67,31 @@
     }
   }
 
-  @media screen and (min-width: 601px) and (max-width: 768px ) {
+  @media screen and (min-width: 601px) and (max-width: 999px ) {
 
-    .search-input {
+    .main-nav {
+        background-color: #F8F7F5;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .column-container {
+        gap: 5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .search {
         visibility: hidden;
     }
 
@@ -159,18 +195,47 @@
 
     .overlap-context {
         display: flex;
-        width: 100%;
         margin-right: 0;
         padding-top: 2rem;
-        padding-left: 5rem;
-        padding-right: 3rem;
-        z-index: 1;
+        padding-left: 7rem;
+        padding-right: 7rem;
         background: #e2d294;
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         align-items: center;
+    }
+
+    .info-table {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3.48rem;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info-table-left {
+        margin: 0;
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1.5625rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2.5rem;
+        text-decoration-line: underline;
+    }
+
+    .info-table-right {
+        margin: 0;
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5625rem;
     }
 
 
