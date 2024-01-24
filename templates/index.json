@@ -125,7 +125,7 @@
         "overlapContext2": "<p>To start, let’s learn about when during your cycle you’re most likely to get pregnant.<\/p>"
       }
     },
-    "fertile_yGyt8Q": {
+    "fertile": {
       "type": "fertile",
       "settings": {
         "fertileImage": "shopify:\/\/shop_images\/fertile.svg",
@@ -191,7 +191,7 @@
     "whatTo",
     "recipes",
     "overlap",
-    "fertile_yGyt8Q",
+    "fertile",
     "quote",
     "comparison",
     "testimonials",

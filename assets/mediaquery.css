@@ -78,6 +78,48 @@
         align-items: center;
         align-content: center;
     }
+
+    .fertile-wrapper {
+        width: 80%;
+        display: block;
+    }
+
+    .fertile-title {
+        margin-left: 40%;
+        padding-top: 2.25rem;
+        position: absolute;
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3.125rem;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .fertile-context-container {
+        margin-left: 45%;
+        bottom: 3.31rem;
+        right: 0;
+        display: flex;
+        width: 20%;
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 3rem;
+        border: 1px grey solid;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+
   }
 
   @media screen and (min-width: 601px) and (max-width: 999px ) {
@@ -250,6 +292,49 @@
         font-weight: 400;
         line-height: 1.5625rem;
     }
+
+    .fertile-wrapper {
+        width: 80%;
+        display: block;
+    }
+
+    .fertile-title {
+        margin-left: 40%;
+        padding-top: 2.25rem;
+        position: absolute;
+        display: flex;
+        color: #000;
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 1.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 3.125rem;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .fertile-context-container {
+        margin-left: 45%;
+        bottom: 3.31rem;
+        right: 0;
+        display: flex;
+        width: 20%;
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 3rem;
+        border: 1px grey solid;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+    }
+
+
 
 
     }
