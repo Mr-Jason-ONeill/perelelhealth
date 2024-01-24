@@ -900,8 +900,5 @@ height: 3.125rem;
 }
 
 .compared-price {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
+  padding-left: 50%;
 }
