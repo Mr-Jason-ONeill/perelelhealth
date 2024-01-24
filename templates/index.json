@@ -378,4 +378,194 @@
     "sponsors",
     "image_text"
   ]
+{
+  "sections": {
+    "index": {
+      "type": "hero",
+      "settings": {
+        "hero": "shopify:\/\/shop_images\/hero.png",
+        "heroHeading": "<p>let’s prepare your body <\/p><p>for pregnancy<\/p><p><\/p>",
+        "heroContext": "<p>With a doctor-formulated routine to support your fertility<\/p><p><\/p><p><\/p>"
+      }
+    },
+    "image": {
+      "type": "image",
+      "settings": {
+        "displayInfo": false,
+        "imageCard": "shopify:\/\/shop_images\/perelelbox.png",
+        "imageHeading": "",
+        "imageContext": ""
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "settings": {
+        "marquee": "<p>Founded by OB\/GYNs  |  Formulated by Fertility Doctors  |  Research-Backed  |  3rd Party Tested  |  High-Quality Ingredients  |  No-Nausea Formulation  |  Gluten-Free  |  <\/p>"
+      }
+    },
+    "bulletpoints": {
+      "type": "bulletpoints",
+      "settings": {
+        "blockHeading": "Your Pre-Pregnancy Routine Starts Here",
+        "cartText": "<p>A daily vitamin routine with a full-spectrum prenatal <\/p><p>vitamin, CoQ10, omega DHA + EPA, and additional folate.<\/p>",
+        "cartDisplay": "shopify:\/\/shop_images\/addtocart.png"
+      }
+    },
+    "info": {
+      "type": "information",
+      "settings": {
+        "infoHeading": "<p>A Look Inside Your \"Pre\" Prenatal Vitamin Pack<\/p>",
+        "infoParagraph": "<p>Conception Support Pack* is specifically made to prepare your body for pregnancy. Most prenatal vitamins are one-size-fits-all, and don’t consider the unique nutrient needs of this chapter.*<\/p>",
+        "infoImage": "shopify:\/\/shop_images\/pills.png",
+        "left": "<p>Not ready to get pregnant right now?  <strong>Don't worry, <br\/>this pack is for you! <\/strong>\u2028\u2028<\/p>",
+        "right": "<p>Our medical panel recommends taking our Conception Support Pack* at least 6 months before you’re ready to begin trying to get pregnant.<\/p>"
+      }
+    },
+    "icons": {
+      "type": "icons",
+      "settings": {
+        "iconHeading": "<p>Essential Nutrients to Support<\/p>",
+        "iconSubHeading": "<p>Fertility + Early Pregnancy<\/p>",
+        "iconInfo": "<p>Your complete vitamin routine to prepare your body \u2028for pregnancy and support fertility—all in one daily pack.<\/p>"
+      }
+    },
+    "whatTo": {
+      "type": "whatTo",
+      "settings": {
+        "whatHeading": "<p>Let’s talk about some of the other ways to support your fertility—<\/p>",
+        "whatSubHeading": "<p>in addition to a conception vitamin routine.<\/p>",
+        "blockTitle1": "",
+        "whatContent1": "<p><strong>What to Do:<\/strong><br\/><br\/>Check in with your doctor.<br\/>Together, you can make sure there are no imbalances or irregularities to address, and make a plan to go off hormonal birth control if you’re on it.<br\/><\/p>",
+        "blockTitle2": "",
+        "whatContent2": "<p><strong>What to Eat:<\/strong><br\/><br\/>Follow the conception diet.<br\/>Prioritize balanced, nutritious meals and nutrients that support fertility, like folate.<br\/><\/p>",
+        "blockTitle3": "",
+        "whatContent3": "<p><strong>What to Avoid:<\/strong><br\/><br\/>Cut back on vices like smoking \u2028and alcohol. <br\/>These habits can have a negative impact on fertility.<br\/><\/p>"
+      }
+    },
+    "recipes": {
+      "type": "recipes",
+      "blocks": {
+        "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1 Scoop Perelel Synbiotic Greens Powder"
+          }
+        },
+        "4ea57976-b4d1-4610-8f6d-92e829fb968d": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1\/2 C whole milk greek yogurt"
+          }
+        },
+        "906e0e36-b2bf-496a-a89c-b6dac5dd1703": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1\/2 small avocado (or 1\/4 C frozen cubed)"
+          }
+        },
+        "cb915463-4a02-4093-80d5-00561517766f": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1\/2 to 1 C milk of choice"
+          }
+        },
+        "5f00bd91-6fa4-4eb3-8f9d-640578a722f4": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1 C spinach"
+          }
+        },
+        "a8bf0ce6-7bf0-4ac1-bc1d-c6eb35a81296": {
+          "type": "richtext",
+          "settings": {
+            "steps": "1\/2 C frozen berries"
+          }
+        }
+      },
+      "block_order": [
+        "222b9dc0-b9d8-4e37-9df9-08f62fd2a9a2",
+        "4ea57976-b4d1-4610-8f6d-92e829fb968d",
+        "906e0e36-b2bf-496a-a89c-b6dac5dd1703",
+        "cb915463-4a02-4093-80d5-00561517766f",
+        "5f00bd91-6fa4-4eb3-8f9d-640578a722f4",
+        "a8bf0ce6-7bf0-4ac1-bc1d-c6eb35a81296"
+      ],
+      "settings": {
+        "recipeTitle": "<p>The Fertility Smoothie<br\/>Recipe<\/p>",
+        "recipeImage": "shopify:\/\/shop_images\/recipe_image.png",
+        "recipeInfo": "Support hormonal balance and egg health with this recipe from Perelel Panelist Stephanie Lauri, RD.*"
+      }
+    },
+    "overlap": {
+      "type": "overlap",
+      "settings": {
+        "imageLayer": "shopify:\/\/shop_images\/body.jpg",
+        "overlapTitle": "Check in with your cycle.",
+        "overlapContext1": "<p>Tracking your menstrual cycle is a crucial step when you’re planning for pregnancy—\u2028to ensure that you’re addressing any irregularities, and so that you know when you’re most fertile.<\/p>",
+        "overlapContext2": "<p>To start, let’s learn about when during your cycle you’re most likely to get pregnant.<\/p>"
+      }
+    },
+    "quote": {
+      "type": "quote",
+      "settings": {
+        "quoteTitle": "ask an expert",
+        "quoteText1": "<p>I’ve been taking hormonal birth control—\u2028will that impact my chances?<\/p>",
+        "accountImage": "shopify:\/\/shop_images\/user.png",
+        "quoteText2": "<p>“No, that’s an old wive’s tale. Birth control pills these days are very low-dose and they’re very reversible. By stopping hormonal birth control, a woman should be able to get pregnant very easily and it doesn’t matter if she’s been on two weeks of birth control or ten years.”<\/p>",
+        "accountDetails": "— Dr. Andy Huang, MD, FACOG"
+      }
+    },
+    "comparison": {
+      "type": "comparison",
+      "settings": {
+        "comparisonTitle": "You and your body deserve the best—",
+        "comparisonSubTitle": "now more than ever.",
+        "comparisonText1": "<p>That means relying on a vitamin regimen with the highest-quality ingredients. <br\/>But cobbling that routine together on your own can be time-consuming—and expensive.<\/p>",
+        "productSentence": "<p>If you purchased similar vitamins individually, it would cost 203% more.<\/p>",
+        "comparisonImage1": "shopify:\/\/shop_images\/pills.jpg",
+        "comparisonInformation1": "<p>Buying each supplement<\/p><p><\/p><p> <strong>$150.22<\/strong><\/p>",
+        "comparisonImage2": "shopify:\/\/shop_images\/perelelpill.png",
+        "comparisonInformation2": "<p>Perelel’s Conception Support Pack*<strong> <\/strong><\/p><p><\/p><p><strong>$49.50 \/ month<\/strong><\/p>"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "settings": {
+        "testimonialContent1": "<p><\/p><p>\"I feel like it hit the prenatal jackpot! So many people have trouble <br\/>finding prenatal vitamins that don't have crappy side effects like <br\/>nausea or fishy aftertaste. This vitamin pack not only has ALL the<br\/>nutrients I was looking for, but it doesn't make me feel bad at all! Love it!\"<\/p><p><\/p><p><strong>- Amanda<\/strong><\/p>",
+        "testimonialContent2": "<p>\" I really love Perelel! Their vitamins are formulated so well and helped me to feel great. I also really appreciate how much they care for their customers. Such a great product and company. Absolutely will get them for every pregnancy & in between!!\"<br\/><br\/><strong>- Bynne<\/strong><\/p>",
+        "testimonialContent3": "<p>\" After trying just about every prenatal on the market, this is the only one I'll be using ever again! The packs are super convenient and easy to take, (no huge pills) and doesn't make me nauseous. I love that it includes the added B6 & ginger for those first trimester days when nothing wants to stay down. Thanks for making a great product!\"<br\/><br\/><strong>- Kathryn A<\/strong><\/p>"
+      }
+    },
+    "sponsors": {
+      "type": "sponsors",
+      "settings": {
+        "sponsorImage1": "shopify:\/\/shop_images\/sponsors.png"
+      }
+    },
+    "image_text": {
+      "type": "image",
+      "settings": {
+        "displayInfo": true,
+        "imageCard": "shopify:\/\/shop_images\/perelelbox.png",
+        "imageHeading": "Conception Support Pack*",
+        "imageContext": "Formulated by top fertility doctors, help prepare your body for pregnancy with this daily vitamin routine that includes a full-spectrum prenatal vitamin, CoQ10, omega DHA + EPA, and additional folate.*"
+      }
+    }
+  },
+  "order": [
+    "index",
+    "image",
+    "marquee",
+    "bulletpoints",
+    "info",
+    "icons",
+    "whatTo",
+    "recipes",
+    "overlap",
+    "quote",
+    "comparison",
+    "testimonials",
+    "sponsors",
+    "image_text"
+  ]
 }
