@@ -18,6 +18,7 @@
     }
 
     .info-table-left {
+        margin: 0;
         color: #000;
         font-family: 'Poppins';
         font-size: 1.5625rem;
@@ -28,6 +29,7 @@
     }
 
     .info-table-right {
+        margin: 0;
         color: #000;
         font-family: 'Poppins';
         font-size: 1rem;
@@ -51,7 +53,12 @@
     }
   }
 
-  @media screen and (max-width: 768px ) {
+  @media screen and (min-width: 601px) and (max-width: 768px ) {
+
+    .search-input {
+        visibility: hidden;
+    }
+
     .test-blocks-container, 
     .what-blocks-container {
         display: flex;
@@ -101,8 +108,8 @@
     }
 
     .quote-context {
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
     }
 
     .comparison-wrapper {
@@ -134,7 +141,39 @@
 
     .image-wrapper {
             padding-bottom: 4rem;
-        }
+    }
+
+    .ingredient-block {
+            padding-bottom: 6rem;
+    }
+
+    .overlap-wrapper {
+        display: flex;
+        margin: 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlap-context {
+        display: flex;
+        width: 100%;
+        margin-right: 0;
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 3rem;
+        z-index: 1;
+        background: #e2d294;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
+
+
     }
 
 
