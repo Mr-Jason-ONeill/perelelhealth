@@ -127,6 +127,7 @@
     },
     "fertile": {
       "type": "fertile",
+      "disabled": true,
       "settings": {
         "fertileImage": "shopify:\/\/shop_images\/fertile.svg",
         "fertileTitle": "The Fertile Window",
